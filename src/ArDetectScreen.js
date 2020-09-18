@@ -22,22 +22,10 @@ export class ArDetectScreen extends Component {
     super(props);
     this.state = {
       sharedProps: initSharedProps,
-      imgWidth: 0,
-      imgHeight: 0,
-      loading: true,
-      currentTime: 0,
-      totalTime: 0,
-      imgWidth: 0,
-      imgHeight: 0,
     };
   }
 
-  componentDidMount() {
-    // const demoSourceImage = Image.resolveAssetSource(data[0].image);
-    // const imgWidth = demoSourceImage.width;
-    // const imgHeight = demoSourceImage.height;
-    // this.setState({imgWidth, imgHeight});
-  }
+  componentDidMount() {}
 
   componentWillUnmount() {}
 
@@ -105,28 +93,12 @@ export class ArDetectScreen extends Component {
   };
 
   render() {
-    const {imgWidth, imgHeight} = this.state;
-
     return (
       <>
         <ViroARSceneNavigator
           {...this.state.sharedProps}
           initialScene={{scene: this.renderDetectPage}}
         />
-
-        {/* {data && (
-          <Image
-            source={data[0].image}
-            style={{
-              width: imgWidth / 5,
-              height: imgHeight / 5,
-              position: 'absolute',
-              top: screen.height / 2 - imgHeight / 5 / 2,
-              left: screen.width / 2 - imgWidth / 5 / 2,
-              opacity: 0.3,
-            }}
-          />
-        )} */}
       </>
     );
   }

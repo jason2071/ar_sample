@@ -44,9 +44,7 @@ export class DetailScreen extends Component {
           {source && (
             <View style={styles.content}>
               <View style={styles.shop}>
-                <Text style={styles.store}>
-                  ร้าน : {source.store} ::: {source.id}
-                </Text>
+                <Text style={styles.store}>ร้าน : {source.store}</Text>
                 <Text style={styles.branch}>สาขา : {source.branch}</Text>
               </View>
 
@@ -97,7 +95,7 @@ export class DetailScreen extends Component {
               <TouchableOpacity
                 style={styles.button}
                 onPress={() => navigation.goBack()}>
-                <Text style={styles.ปิด}>ปิด</Text>
+                <Text style={styles.close}>ปิด</Text>
               </TouchableOpacity>
             </View>
           )}
@@ -314,7 +312,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 10,
   },
-  ปิด: {
+  close: {
     fontFamily: 'DBHeavent',
     color: 'rgba(255,255,255,1)',
     fontSize: 25,
