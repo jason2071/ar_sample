@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>ar_sample</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Used for AR/VR</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Used find geolocation</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Used find geolocation</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>DB Heavent Bd It v3.2.1.ttf</string>
+		<string>DB Heavent Bd v3.2.1.ttf</string>
+		<string>DB Heavent Blk It v3.2.1.ttf</string>
+		<string>DB Heavent Blk v3.2.1.ttf</string>
+		<string>DB Heavent It v3.2.1.ttf</string>
+		<string>DB Heavent Li It v3.2.1.ttf</string>
+		<string>DB Heavent Li v3.2.1.ttf</string>
+		<string>DB Heavent Med It v3.2.1.ttf</string>
+		<string>DB Heavent Med v3.2.1.ttf</string>
+		<string>DB Heavent Thin It v3.2.1.ttf</string>
+		<string>DB Heavent Thin v3.2.1.ttf</string>
+		<string>DB Heavent UlLi It v3.2.1.ttf</string>
+		<string>DB Heavent UlLi v3.2.1.ttf</string>
+		<string>DB Heavent v3.2.1.ttf</string>
+		<string>DB Helvethaica X Bd Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X Bd Cond v3.2.ttf</string>
+		<string>DB Helvethaica X Bd Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X Bd Ext v3.2.ttf</string>
+		<string>DB Helvethaica X Bd It v3.2.ttf</string>
+		<string>DB Helvethaica X Bd v3.2.ttf</string>
+		<string>DB Helvethaica X Blk Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X Blk Cond v3.2.ttf</string>
+		<string>DB Helvethaica X Blk Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X Blk Ext v3.2.ttf</string>
+		<string>DB Helvethaica X Blk It v3.2.ttf</string>
+		<string>DB Helvethaica X Blk v3.2.ttf</string>
+		<string>DB Helvethaica X Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X Cond v3.2.ttf</string>
+		<string>DB Helvethaica X Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X Ext v3.2.ttf</string>
+		<string>DB Helvethaica X It v3.2.ttf</string>
+		<string>DB Helvethaica X Li Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X Li Cond v3.2.ttf</string>
+		<string>DB Helvethaica X Li Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X Li Ext v3.2.ttf</string>
+		<string>DB Helvethaica X Li It v3.2.ttf</string>
+		<string>DB Helvethaica X Li v3.2.ttf</string>
+		<string>DB Helvethaica X Med Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X Med Cond v3.2.ttf</string>
+		<string>DB Helvethaica X Med Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X Med Ext v3.2.ttf</string>
+		<string>DB Helvethaica X Med It v3.2.ttf</string>
+		<string>DB Helvethaica X Med v3.2.ttf</string>
+		<string>DB Helvethaica X Thin Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X Thin Cond v3.2.ttf</string>
+		<string>DB Helvethaica X Thin Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X Thin Ext v3.2.ttf</string>
+		<string>DB Helvethaica X Thin It v3.2.ttf</string>
+		<string>DB Helvethaica X Thin v3.2.ttf</string>
+		<string>DB Helvethaica X UlLi Cond It v3.2.ttf</string>
+		<string>DB Helvethaica X UlLi Cond v3.2.ttf</string>
+		<string>DB Helvethaica X UlLi Ext It v3.2.ttf</string>
+		<string>DB Helvethaica X UlLi Ext v3.2.ttf</string>
+		<string>DB Helvethaica X UlLi It v3.2.ttf</string>
+		<string>DB Helvethaica X UlLi v3.2.ttf</string>
+		<string>DB Helvethaica X v3.2.ttf</string>
+	</array>
+</dict>
+</plist>

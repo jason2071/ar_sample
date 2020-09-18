@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ar_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ar_sampleTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* ar_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ar_sampleTests.m */; };
+		77E47B77F5918709EC604B9F /* libPods-ar_sample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D020F9152FDC3F386A9EB0 /* libPods-ar_sample-tvOS.a */; };
+		BA03161E403C43E4EF24D76F /* Pods_ar_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AD70BAEBD500C3E4403EF4 /* Pods_ar_sample.framework */; };
+		DF74D2A24B37DE4594D25535 /* Pods_ar_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B6DA629550DB1EDA081493 /* Pods_ar_sampleTests.framework */; };
+		FFDBE3AA27E34A328FFEC202 /* libPods-ar_sample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A61AFBCD0B52A65457DF36 /* libPods-ar_sample-tvOSTests.a */; };
+		CBAAD8DE8C2F4222B89E432B /* DB Heavent Bd It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 058C80DE75B7423AB4F972EE /* DB Heavent Bd It v3.2.1.ttf */; };
+		F7D02FFBA1804CCC951ACFBA /* DB Heavent Bd v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A53A7B9EB264C0F914B5D59 /* DB Heavent Bd v3.2.1.ttf */; };
+		B6147E6D11A1494A8C9E7594 /* DB Heavent Blk It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7978354630E94B258AC75026 /* DB Heavent Blk It v3.2.1.ttf */; };
+		747C04342CE947DA975B691B /* DB Heavent Blk v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6087BCF124771B0E53EC6 /* DB Heavent Blk v3.2.1.ttf */; };
+		83E81DBC9ACE4944949F9E96 /* DB Heavent It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606D33A416D84A5C81C7D803 /* DB Heavent It v3.2.1.ttf */; };
+		0257E65B2F764385A15F1254 /* DB Heavent Li It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B02272B7526B449CA999EC7A /* DB Heavent Li It v3.2.1.ttf */; };
+		A7F2364065384BA396B0FFAA /* DB Heavent Li v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 335DEF0280824487A70A9542 /* DB Heavent Li v3.2.1.ttf */; };
+		A42FDDF8EC344451A8929E77 /* DB Heavent Med It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 720AFEC8CBC84A67840BBFFE /* DB Heavent Med It v3.2.1.ttf */; };
+		FAEEB0ECEAC14B67AC5B854D /* DB Heavent Med v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA111DC2CD3D4DA5BF6A2D6C /* DB Heavent Med v3.2.1.ttf */; };
+		9DC3E41DFD15402E862F729A /* DB Heavent Thin It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07A4854B1D674F2FA0D5A999 /* DB Heavent Thin It v3.2.1.ttf */; };
+		DCC1010CD232414798B5CF67 /* DB Heavent Thin v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B608C1E5F6D849F6A5882A07 /* DB Heavent Thin v3.2.1.ttf */; };
+		6FB82C1F9B5F4B22899620C8 /* DB Heavent UlLi It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E491B8510824A37BDA4D5B8 /* DB Heavent UlLi It v3.2.1.ttf */; };
+		C0EEAACDEDA4449E973D2B26 /* DB Heavent UlLi v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACDB374F5FBA4892A0EE0346 /* DB Heavent UlLi v3.2.1.ttf */; };
+		C49B2C9238CF443E810F1E3A /* DB Heavent v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEA5FCE5E8C74F8CBA02AC3A /* DB Heavent v3.2.1.ttf */; };
+		EBC9EC91A6434AE496F1C671 /* DB Helvethaica X Bd Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA826B064BDD4A5B8D0724A7 /* DB Helvethaica X Bd Cond It v3.2.ttf */; };
+		A090EDED5DEA48BE82C1BE93 /* DB Helvethaica X Bd Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCFCC9DA4846429FDE90E1 /* DB Helvethaica X Bd Cond v3.2.ttf */; };
+		B1A21ED366A24B18B8F0304E /* DB Helvethaica X Bd Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAA902A824E51B6BF6F2C /* DB Helvethaica X Bd Ext It v3.2.ttf */; };
+		D964495F6F8D481488AAE934 /* DB Helvethaica X Bd Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE42907A33F452CA5403ACF /* DB Helvethaica X Bd Ext v3.2.ttf */; };
+		799DEAFAB0B246CD8D70C1D0 /* DB Helvethaica X Bd It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DA5A044553043E59F99DA73 /* DB Helvethaica X Bd It v3.2.ttf */; };
+		D04F83A95A4D4F14AD50E111 /* DB Helvethaica X Bd v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C081D40B02E64433B9F966DA /* DB Helvethaica X Bd v3.2.ttf */; };
+		BCF9521452D541B99E172FDE /* DB Helvethaica X Blk Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9434CBA136F45A78598F2B5 /* DB Helvethaica X Blk Cond It v3.2.ttf */; };
+		B03D69E0974048A79B67A913 /* DB Helvethaica X Blk Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B00DA8D821484A9FBBD0232E /* DB Helvethaica X Blk Cond v3.2.ttf */; };
+		56C74BDF1870464486631AB9 /* DB Helvethaica X Blk Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 540D344DD24E4D9C9F8F05D1 /* DB Helvethaica X Blk Ext It v3.2.ttf */; };
+		7EB95706E4AF49918B070612 /* DB Helvethaica X Blk Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D11B2CFAE4C439BAFF5AD15 /* DB Helvethaica X Blk Ext v3.2.ttf */; };
+		B71F828FCC9F4FAAB2A7DFF9 /* DB Helvethaica X Blk It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC54E0E43DA48A3A260298C /* DB Helvethaica X Blk It v3.2.ttf */; };
+		0C56BC8ECA6E44BF963C02C5 /* DB Helvethaica X Blk v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D3CCCAF6CD9485483A02CAF /* DB Helvethaica X Blk v3.2.ttf */; };
+		48353170F3464D4B9F5FC72D /* DB Helvethaica X Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0186D9758E8F411DBD8FBA6A /* DB Helvethaica X Cond It v3.2.ttf */; };
+		535457D455274A2CB8914F77 /* DB Helvethaica X Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F6FC55A32ED42A4862E9E3C /* DB Helvethaica X Cond v3.2.ttf */; };
+		3DBA035938744B979BA602C4 /* DB Helvethaica X Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAB2217C36E54769A8BEFD1A /* DB Helvethaica X Ext It v3.2.ttf */; };
+		2EAC523B874B4EDBAAB1CEE5 /* DB Helvethaica X Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11A01A86F9C14103B6DB6C91 /* DB Helvethaica X Ext v3.2.ttf */; };
+		5730388408C646CE8B9B42B2 /* DB Helvethaica X It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41CEAF5CAACF4039AFBEA3EE /* DB Helvethaica X It v3.2.ttf */; };
+		263EAD52ADF144359FDE2224 /* DB Helvethaica X Li Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1993C7C0A3BA462C9B44A399 /* DB Helvethaica X Li Cond It v3.2.ttf */; };
+		72B35B40400440BA84F68398 /* DB Helvethaica X Li Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC45361A9EA48BBA4E16C47 /* DB Helvethaica X Li Cond v3.2.ttf */; };
+		01715EC4E99746A08873DF92 /* DB Helvethaica X Li Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EC0D21DF17741DFAED60664 /* DB Helvethaica X Li Ext It v3.2.ttf */; };
+		497160C9ED964652ACFFFE6E /* DB Helvethaica X Li Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8C37D32184AFD8A646018 /* DB Helvethaica X Li Ext v3.2.ttf */; };
+		B454B94EC7BD48B2ADB4A866 /* DB Helvethaica X Li It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23237200A2664C5BA3D554F3 /* DB Helvethaica X Li It v3.2.ttf */; };
+		AA2AD750F2AE43C496A82D59 /* DB Helvethaica X Li v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C96F2DC6E634A268C5C4170 /* DB Helvethaica X Li v3.2.ttf */; };
+		88023723AD0E454AA1624325 /* DB Helvethaica X Med Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621BDB01E8CF422BB289DDAD /* DB Helvethaica X Med Cond It v3.2.ttf */; };
+		E0191727585949B299A6AA09 /* DB Helvethaica X Med Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D63D6010FDE44508EB3B635 /* DB Helvethaica X Med Cond v3.2.ttf */; };
+		2EABE8E6429B4DD79D499AF6 /* DB Helvethaica X Med Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D55A12A27B9847168D536A4A /* DB Helvethaica X Med Ext It v3.2.ttf */; };
+		8B3EB5D1DB184A2DA9D728BC /* DB Helvethaica X Med Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BFE8917370841ADBF874FAE /* DB Helvethaica X Med Ext v3.2.ttf */; };
+		A623C5FA47E3487FAC27089D /* DB Helvethaica X Med It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606165784991498E8BD2E793 /* DB Helvethaica X Med It v3.2.ttf */; };
+		50907B9F1DE24C18923D3EDB /* DB Helvethaica X Med v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA8FAD3300E4A46B0AE2070 /* DB Helvethaica X Med v3.2.ttf */; };
+		C134E7AFC141475BB6E5B363 /* DB Helvethaica X Thin Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D50DB27686474C9B586631 /* DB Helvethaica X Thin Cond It v3.2.ttf */; };
+		A9075F97FBCA4F6D885A13D0 /* DB Helvethaica X Thin Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2C5E1202BB14508AE5C1E21 /* DB Helvethaica X Thin Cond v3.2.ttf */; };
+		A4B990B5414D43A6BB1AA6C7 /* DB Helvethaica X Thin Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D15A057C3C1492C92F74EC6 /* DB Helvethaica X Thin Ext It v3.2.ttf */; };
+		996EA9E53842426B909995B1 /* DB Helvethaica X Thin Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8AA52D23128491EB587CE68 /* DB Helvethaica X Thin Ext v3.2.ttf */; };
+		62E8336566D84E218836934F /* DB Helvethaica X Thin It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AE2EA9851540AFAE78A00F /* DB Helvethaica X Thin It v3.2.ttf */; };
+		10CDDA3E448148628359709D /* DB Helvethaica X Thin v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10CE4551D4C44C98AB37E10E /* DB Helvethaica X Thin v3.2.ttf */; };
+		8AC56ED742794B4A8B2ABCDB /* DB Helvethaica X UlLi Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330F3031E333460C9A3257C3 /* DB Helvethaica X UlLi Cond It v3.2.ttf */; };
+		236835D63AC6461EB4A0A6A5 /* DB Helvethaica X UlLi Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 257C7583FC9A4305BE798211 /* DB Helvethaica X UlLi Cond v3.2.ttf */; };
+		378379EF054F4F7BA4BF1DA2 /* DB Helvethaica X UlLi Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C48C890DA8342E18EFD1F3C /* DB Helvethaica X UlLi Ext It v3.2.ttf */; };
+		1F22D9D262E74E39B233FD97 /* DB Helvethaica X UlLi Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA54E53C31AF4723941518F6 /* DB Helvethaica X UlLi Ext v3.2.ttf */; };
+		C8213100464A4FED8F63D36D /* DB Helvethaica X UlLi It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D65001E5D5554F6BAEF53870 /* DB Helvethaica X UlLi It v3.2.ttf */; };
+		56874235F7D544FA981D67EB /* DB Helvethaica X UlLi v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2706E6856F8D43358D81AA79 /* DB Helvethaica X UlLi v3.2.ttf */; };
+		EFD45624DADA4C97865FE46E /* DB Helvethaica X v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA0146D1C44D29B7504E0F /* DB Helvethaica X v3.2.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ar_sample;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "ar_sample-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* ar_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ar_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ar_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ar_sampleTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ar_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ar_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ar_sample/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ar_sample/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ar_sample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ar_sample/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ar_sample/main.m; sourceTree = "<group>"; };
+		18FD71D040CE0E35FC6F509D /* Pods-ar_sample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOSTests/Pods-ar_sample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B910130568342FFAC98E277 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		2C24E0C5400713BEB93C01EC /* Pods-ar_sample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOSTests/Pods-ar_sample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ar_sample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar_sample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ar_sample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar_sample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3123E947B255BAA0F6867782 /* Pods-ar_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample.release.xcconfig"; path = "Target Support Files/Pods-ar_sample/Pods-ar_sample.release.xcconfig"; sourceTree = "<group>"; };
+		38F655CE1079492A9B22E9AA /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		4A93AF34255546C5A23E58A3 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		533DFDCEFB88BEB446AE16BD /* Pods-ar_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sampleTests.release.xcconfig"; path = "Target Support Files/Pods-ar_sampleTests/Pods-ar_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C2AEAD42C06446AA640EE45 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		5CFC01560EA342C2B3DBE5C6 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		638821AF847D4BF5A32B9F14 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		729D6076FC274927972A5D2E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		7A574DFEE0A84F11BCD9A229 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		7B03189ED78B6225CC55B77D /* Pods-ar_sample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOS/Pods-ar_sample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		899ACCBB290945E3877DC553 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		9589F864377F4DBC8531EAA3 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		A8A61AFBCD0B52A65457DF36 /* libPods-ar_sample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ar_sample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AD70BAEBD500C3E4403EF4 /* Pods_ar_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ar_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53141D33AA546438795B9D4 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		B6B6DA629550DB1EDA081493 /* Pods_ar_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ar_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB26A4CA5B564B849FA29DF6 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		C29F7B8F090E4CDEB0E3BA83 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		C8E66DE38507420D83CC96DF /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		CCBD3C9B1E67156916345D91 /* Pods-ar_sample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOS/Pods-ar_sample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9ADAB28CB14919B2327996 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D8A71CA03E0F48F996FC3214 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		E7909F097034D44B67A90FD8 /* Pods-ar_sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ar_sampleTests/Pods-ar_sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E951C2251604D3E54DC4F8A8 /* Pods-ar_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample.debug.xcconfig"; path = "Target Support Files/Pods-ar_sample/Pods-ar_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F4D020F9152FDC3F386A9EB0 /* libPods-ar_sample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ar_sample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058C80DE75B7423AB4F972EE /* DB Heavent Bd It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Bd It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Bd It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A53A7B9EB264C0F914B5D59 /* DB Heavent Bd v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Bd v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Bd v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7978354630E94B258AC75026 /* DB Heavent Blk It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Blk It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Blk It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BE6087BCF124771B0E53EC6 /* DB Heavent Blk v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Blk v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Blk v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		606D33A416D84A5C81C7D803 /* DB Heavent It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B02272B7526B449CA999EC7A /* DB Heavent Li It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Li It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Li It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		335DEF0280824487A70A9542 /* DB Heavent Li v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Li v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Li v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		720AFEC8CBC84A67840BBFFE /* DB Heavent Med It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Med It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Med It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA111DC2CD3D4DA5BF6A2D6C /* DB Heavent Med v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Med v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Med v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07A4854B1D674F2FA0D5A999 /* DB Heavent Thin It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Thin It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Thin It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B608C1E5F6D849F6A5882A07 /* DB Heavent Thin v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent Thin v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Thin v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E491B8510824A37BDA4D5B8 /* DB Heavent UlLi It v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent UlLi It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent UlLi It v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACDB374F5FBA4892A0EE0346 /* DB Heavent UlLi v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent UlLi v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent UlLi v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AEA5FCE5E8C74F8CBA02AC3A /* DB Heavent v3.2.1.ttf */ = {isa = PBXFileReference; name = "DB Heavent v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent v3.2.1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BA826B064BDD4A5B8D0724A7 /* DB Helvethaica X Bd Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Bd Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3ACCFCC9DA4846429FDE90E1 /* DB Helvethaica X Bd Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Bd Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBADAA902A824E51B6BF6F2C /* DB Helvethaica X Bd Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Bd Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0AE42907A33F452CA5403ACF /* DB Helvethaica X Bd Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Bd Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DA5A044553043E59F99DA73 /* DB Helvethaica X Bd It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Bd It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C081D40B02E64433B9F966DA /* DB Helvethaica X Bd v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Bd v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9434CBA136F45A78598F2B5 /* DB Helvethaica X Blk Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Blk Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B00DA8D821484A9FBBD0232E /* DB Helvethaica X Blk Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Blk Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		540D344DD24E4D9C9F8F05D1 /* DB Helvethaica X Blk Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Blk Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D11B2CFAE4C439BAFF5AD15 /* DB Helvethaica X Blk Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Blk Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBC54E0E43DA48A3A260298C /* DB Helvethaica X Blk It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Blk It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D3CCCAF6CD9485483A02CAF /* DB Helvethaica X Blk v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Blk v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0186D9758E8F411DBD8FBA6A /* DB Helvethaica X Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F6FC55A32ED42A4862E9E3C /* DB Helvethaica X Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CAB2217C36E54769A8BEFD1A /* DB Helvethaica X Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11A01A86F9C14103B6DB6C91 /* DB Helvethaica X Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41CEAF5CAACF4039AFBEA3EE /* DB Helvethaica X It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1993C7C0A3BA462C9B44A399 /* DB Helvethaica X Li Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Li Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FEC45361A9EA48BBA4E16C47 /* DB Helvethaica X Li Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Li Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1EC0D21DF17741DFAED60664 /* DB Helvethaica X Li Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Li Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91E8C37D32184AFD8A646018 /* DB Helvethaica X Li Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Li Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23237200A2664C5BA3D554F3 /* DB Helvethaica X Li It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Li It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C96F2DC6E634A268C5C4170 /* DB Helvethaica X Li v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Li v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		621BDB01E8CF422BB289DDAD /* DB Helvethaica X Med Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Med Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D63D6010FDE44508EB3B635 /* DB Helvethaica X Med Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Med Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D55A12A27B9847168D536A4A /* DB Helvethaica X Med Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Med Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BFE8917370841ADBF874FAE /* DB Helvethaica X Med Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Med Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		606165784991498E8BD2E793 /* DB Helvethaica X Med It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Med It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BA8FAD3300E4A46B0AE2070 /* DB Helvethaica X Med v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Med v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05D50DB27686474C9B586631 /* DB Helvethaica X Thin Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Thin Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2C5E1202BB14508AE5C1E21 /* DB Helvethaica X Thin Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Thin Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D15A057C3C1492C92F74EC6 /* DB Helvethaica X Thin Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Thin Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8AA52D23128491EB587CE68 /* DB Helvethaica X Thin Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Thin Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C8AE2EA9851540AFAE78A00F /* DB Helvethaica X Thin It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Thin It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10CE4551D4C44C98AB37E10E /* DB Helvethaica X Thin v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X Thin v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		330F3031E333460C9A3257C3 /* DB Helvethaica X UlLi Cond It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X UlLi Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Cond It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		257C7583FC9A4305BE798211 /* DB Helvethaica X UlLi Cond v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X UlLi Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Cond v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C48C890DA8342E18EFD1F3C /* DB Helvethaica X UlLi Ext It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X UlLi Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Ext It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA54E53C31AF4723941518F6 /* DB Helvethaica X UlLi Ext v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X UlLi Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Ext v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D65001E5D5554F6BAEF53870 /* DB Helvethaica X UlLi It v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X UlLi It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi It v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2706E6856F8D43358D81AA79 /* DB Helvethaica X UlLi v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X UlLi v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FEA0146D1C44D29B7504E0F /* DB Helvethaica X v3.2.ttf */ = {isa = PBXFileReference; name = "DB Helvethaica X v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X v3.2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF74D2A24B37DE4594D25535 /* Pods_ar_sampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA03161E403C43E4EF24D76F /* Pods_ar_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E47B77F5918709EC604B9F /* libPods-ar_sample-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDBE3AA27E34A328FFEC202 /* libPods-ar_sample-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ar_sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ar_sampleTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ar_sampleTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ar_sample */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = ar_sample;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				F4D020F9152FDC3F386A9EB0 /* libPods-ar_sample-tvOS.a */,
+				A8A61AFBCD0B52A65457DF36 /* libPods-ar_sample-tvOSTests.a */,
+				A9AD70BAEBD500C3E4403EF4 /* Pods_ar_sample.framework */,
+				B6B6DA629550DB1EDA081493 /* Pods_ar_sampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B5D24614C98AD6F89E4617F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E951C2251604D3E54DC4F8A8 /* Pods-ar_sample.debug.xcconfig */,
+				3123E947B255BAA0F6867782 /* Pods-ar_sample.release.xcconfig */,
+				CCBD3C9B1E67156916345D91 /* Pods-ar_sample-tvOS.debug.xcconfig */,
+				7B03189ED78B6225CC55B77D /* Pods-ar_sample-tvOS.release.xcconfig */,
+				18FD71D040CE0E35FC6F509D /* Pods-ar_sample-tvOSTests.debug.xcconfig */,
+				2C24E0C5400713BEB93C01EC /* Pods-ar_sample-tvOSTests.release.xcconfig */,
+				E7909F097034D44B67A90FD8 /* Pods-ar_sampleTests.debug.xcconfig */,
+				533DFDCEFB88BEB446AE16BD /* Pods-ar_sampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ar_sample */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ar_sampleTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				7B5D24614C98AD6F89E4617F /* Pods */,
+				9E0D14E5669E4E58A0894A8C /* Resources */,
+				A92AA20624EE16AE00A2B833 /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ar_sample.app */,
+				00E356EE1AD99517003FC87E /* ar_sampleTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ar_sample-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ar_sample-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0D14E5669E4E58A0894A8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC01560EA342C2B3DBE5C6 /* AntDesign.ttf */,
+				729D6076FC274927972A5D2E /* Entypo.ttf */,
+				BB26A4CA5B564B849FA29DF6 /* EvilIcons.ttf */,
+				C8E66DE38507420D83CC96DF /* Feather.ttf */,
+				638821AF847D4BF5A32B9F14 /* FontAwesome.ttf */,
+				4A93AF34255546C5A23E58A3 /* FontAwesome5_Brands.ttf */,
+				B53141D33AA546438795B9D4 /* FontAwesome5_Regular.ttf */,
+				1B910130568342FFAC98E277 /* FontAwesome5_Solid.ttf */,
+				38F655CE1079492A9B22E9AA /* Fontisto.ttf */,
+				7A574DFEE0A84F11BCD9A229 /* Foundation.ttf */,
+				C29F7B8F090E4CDEB0E3BA83 /* Ionicons.ttf */,
+				CD9ADAB28CB14919B2327996 /* MaterialCommunityIcons.ttf */,
+				5C2AEAD42C06446AA640EE45 /* MaterialIcons.ttf */,
+				D8A71CA03E0F48F996FC3214 /* Octicons.ttf */,
+				899ACCBB290945E3877DC553 /* SimpleLineIcons.ttf */,
+				9589F864377F4DBC8531EAA3 /* Zocial.ttf */,
+				058C80DE75B7423AB4F972EE /* DB Heavent Bd It v3.2.1.ttf */,
+				7A53A7B9EB264C0F914B5D59 /* DB Heavent Bd v3.2.1.ttf */,
+				7978354630E94B258AC75026 /* DB Heavent Blk It v3.2.1.ttf */,
+				4BE6087BCF124771B0E53EC6 /* DB Heavent Blk v3.2.1.ttf */,
+				606D33A416D84A5C81C7D803 /* DB Heavent It v3.2.1.ttf */,
+				B02272B7526B449CA999EC7A /* DB Heavent Li It v3.2.1.ttf */,
+				335DEF0280824487A70A9542 /* DB Heavent Li v3.2.1.ttf */,
+				720AFEC8CBC84A67840BBFFE /* DB Heavent Med It v3.2.1.ttf */,
+				CA111DC2CD3D4DA5BF6A2D6C /* DB Heavent Med v3.2.1.ttf */,
+				07A4854B1D674F2FA0D5A999 /* DB Heavent Thin It v3.2.1.ttf */,
+				B608C1E5F6D849F6A5882A07 /* DB Heavent Thin v3.2.1.ttf */,
+				0E491B8510824A37BDA4D5B8 /* DB Heavent UlLi It v3.2.1.ttf */,
+				ACDB374F5FBA4892A0EE0346 /* DB Heavent UlLi v3.2.1.ttf */,
+				AEA5FCE5E8C74F8CBA02AC3A /* DB Heavent v3.2.1.ttf */,
+				BA826B064BDD4A5B8D0724A7 /* DB Helvethaica X Bd Cond It v3.2.ttf */,
+				3ACCFCC9DA4846429FDE90E1 /* DB Helvethaica X Bd Cond v3.2.ttf */,
+				DBADAA902A824E51B6BF6F2C /* DB Helvethaica X Bd Ext It v3.2.ttf */,
+				0AE42907A33F452CA5403ACF /* DB Helvethaica X Bd Ext v3.2.ttf */,
+				0DA5A044553043E59F99DA73 /* DB Helvethaica X Bd It v3.2.ttf */,
+				C081D40B02E64433B9F966DA /* DB Helvethaica X Bd v3.2.ttf */,
+				C9434CBA136F45A78598F2B5 /* DB Helvethaica X Blk Cond It v3.2.ttf */,
+				B00DA8D821484A9FBBD0232E /* DB Helvethaica X Blk Cond v3.2.ttf */,
+				540D344DD24E4D9C9F8F05D1 /* DB Helvethaica X Blk Ext It v3.2.ttf */,
+				0D11B2CFAE4C439BAFF5AD15 /* DB Helvethaica X Blk Ext v3.2.ttf */,
+				FBC54E0E43DA48A3A260298C /* DB Helvethaica X Blk It v3.2.ttf */,
+				0D3CCCAF6CD9485483A02CAF /* DB Helvethaica X Blk v3.2.ttf */,
+				0186D9758E8F411DBD8FBA6A /* DB Helvethaica X Cond It v3.2.ttf */,
+				6F6FC55A32ED42A4862E9E3C /* DB Helvethaica X Cond v3.2.ttf */,
+				CAB2217C36E54769A8BEFD1A /* DB Helvethaica X Ext It v3.2.ttf */,
+				11A01A86F9C14103B6DB6C91 /* DB Helvethaica X Ext v3.2.ttf */,
+				41CEAF5CAACF4039AFBEA3EE /* DB Helvethaica X It v3.2.ttf */,
+				1993C7C0A3BA462C9B44A399 /* DB Helvethaica X Li Cond It v3.2.ttf */,
+				FEC45361A9EA48BBA4E16C47 /* DB Helvethaica X Li Cond v3.2.ttf */,
+				1EC0D21DF17741DFAED60664 /* DB Helvethaica X Li Ext It v3.2.ttf */,
+				91E8C37D32184AFD8A646018 /* DB Helvethaica X Li Ext v3.2.ttf */,
+				23237200A2664C5BA3D554F3 /* DB Helvethaica X Li It v3.2.ttf */,
+				8C96F2DC6E634A268C5C4170 /* DB Helvethaica X Li v3.2.ttf */,
+				621BDB01E8CF422BB289DDAD /* DB Helvethaica X Med Cond It v3.2.ttf */,
+				0D63D6010FDE44508EB3B635 /* DB Helvethaica X Med Cond v3.2.ttf */,
+				D55A12A27B9847168D536A4A /* DB Helvethaica X Med Ext It v3.2.ttf */,
+				5BFE8917370841ADBF874FAE /* DB Helvethaica X Med Ext v3.2.ttf */,
+				606165784991498E8BD2E793 /* DB Helvethaica X Med It v3.2.ttf */,
+				1BA8FAD3300E4A46B0AE2070 /* DB Helvethaica X Med v3.2.ttf */,
+				05D50DB27686474C9B586631 /* DB Helvethaica X Thin Cond It v3.2.ttf */,
+				E2C5E1202BB14508AE5C1E21 /* DB Helvethaica X Thin Cond v3.2.ttf */,
+				3D15A057C3C1492C92F74EC6 /* DB Helvethaica X Thin Ext It v3.2.ttf */,
+				E8AA52D23128491EB587CE68 /* DB Helvethaica X Thin Ext v3.2.ttf */,
+				C8AE2EA9851540AFAE78A00F /* DB Helvethaica X Thin It v3.2.ttf */,
+				10CE4551D4C44C98AB37E10E /* DB Helvethaica X Thin v3.2.ttf */,
+				330F3031E333460C9A3257C3 /* DB Helvethaica X UlLi Cond It v3.2.ttf */,
+				257C7583FC9A4305BE798211 /* DB Helvethaica X UlLi Cond v3.2.ttf */,
+				0C48C890DA8342E18EFD1F3C /* DB Helvethaica X UlLi Ext It v3.2.ttf */,
+				AA54E53C31AF4723941518F6 /* DB Helvethaica X UlLi Ext v3.2.ttf */,
+				D65001E5D5554F6BAEF53870 /* DB Helvethaica X UlLi It v3.2.ttf */,
+				2706E6856F8D43358D81AA79 /* DB Helvethaica X UlLi v3.2.ttf */,
+				2FEA0146D1C44D29B7504E0F /* DB Helvethaica X v3.2.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A92AA20624EE16AE00A2B833 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ar_sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ar_sampleTests" */;
+			buildPhases = (
+				27DC1AD4EB969D87EAF19D01 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ar_sampleTests;
+			productName = ar_sampleTests;
+			productReference = 00E356EE1AD99517003FC87E /* ar_sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* ar_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ar_sample" */;
+			buildPhases = (
+				167340FE49BBBCD5B9130FE5 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				08ABA482DDCB3836D30DC856 /* [CP] Embed Pods Frameworks */,
+				B42BBFBDF8E454064362F26A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ar_sample;
+			productName = ar_sample;
+			productReference = 13B07F961A680F5B00A75B9A /* ar_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* ar_sample-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ar_sample-tvOS" */;
+			buildPhases = (
+				8AA340BF56E50AB45C294B0C /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ar_sample-tvOS";
+			productName = "ar_sample-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ar_sample-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* ar_sample-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ar_sample-tvOSTests" */;
+			buildPhases = (
+				F9B299BDFE819769A3BAC1C9 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "ar_sample-tvOSTests";
+			productName = "ar_sample-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ar_sample-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = J632559GCD;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = J632559GCD;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ar_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ar_sample */,
+				00E356ED1AD99517003FC87E /* ar_sampleTests */,
+				2D02E47A1E0B4A5D006451C7 /* ar_sample-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ar_sample-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				CBAAD8DE8C2F4222B89E432B /* DB Heavent Bd It v3.2.1.ttf in Resources */,
+				F7D02FFBA1804CCC951ACFBA /* DB Heavent Bd v3.2.1.ttf in Resources */,
+				B6147E6D11A1494A8C9E7594 /* DB Heavent Blk It v3.2.1.ttf in Resources */,
+				747C04342CE947DA975B691B /* DB Heavent Blk v3.2.1.ttf in Resources */,
+				83E81DBC9ACE4944949F9E96 /* DB Heavent It v3.2.1.ttf in Resources */,
+				0257E65B2F764385A15F1254 /* DB Heavent Li It v3.2.1.ttf in Resources */,
+				A7F2364065384BA396B0FFAA /* DB Heavent Li v3.2.1.ttf in Resources */,
+				A42FDDF8EC344451A8929E77 /* DB Heavent Med It v3.2.1.ttf in Resources */,
+				FAEEB0ECEAC14B67AC5B854D /* DB Heavent Med v3.2.1.ttf in Resources */,
+				9DC3E41DFD15402E862F729A /* DB Heavent Thin It v3.2.1.ttf in Resources */,
+				DCC1010CD232414798B5CF67 /* DB Heavent Thin v3.2.1.ttf in Resources */,
+				6FB82C1F9B5F4B22899620C8 /* DB Heavent UlLi It v3.2.1.ttf in Resources */,
+				C0EEAACDEDA4449E973D2B26 /* DB Heavent UlLi v3.2.1.ttf in Resources */,
+				C49B2C9238CF443E810F1E3A /* DB Heavent v3.2.1.ttf in Resources */,
+				EBC9EC91A6434AE496F1C671 /* DB Helvethaica X Bd Cond It v3.2.ttf in Resources */,
+				A090EDED5DEA48BE82C1BE93 /* DB Helvethaica X Bd Cond v3.2.ttf in Resources */,
+				B1A21ED366A24B18B8F0304E /* DB Helvethaica X Bd Ext It v3.2.ttf in Resources */,
+				D964495F6F8D481488AAE934 /* DB Helvethaica X Bd Ext v3.2.ttf in Resources */,
+				799DEAFAB0B246CD8D70C1D0 /* DB Helvethaica X Bd It v3.2.ttf in Resources */,
+				D04F83A95A4D4F14AD50E111 /* DB Helvethaica X Bd v3.2.ttf in Resources */,
+				BCF9521452D541B99E172FDE /* DB Helvethaica X Blk Cond It v3.2.ttf in Resources */,
+				B03D69E0974048A79B67A913 /* DB Helvethaica X Blk Cond v3.2.ttf in Resources */,
+				56C74BDF1870464486631AB9 /* DB Helvethaica X Blk Ext It v3.2.ttf in Resources */,
+				7EB95706E4AF49918B070612 /* DB Helvethaica X Blk Ext v3.2.ttf in Resources */,
+				B71F828FCC9F4FAAB2A7DFF9 /* DB Helvethaica X Blk It v3.2.ttf in Resources */,
+				0C56BC8ECA6E44BF963C02C5 /* DB Helvethaica X Blk v3.2.ttf in Resources */,
+				48353170F3464D4B9F5FC72D /* DB Helvethaica X Cond It v3.2.ttf in Resources */,
+				535457D455274A2CB8914F77 /* DB Helvethaica X Cond v3.2.ttf in Resources */,
+				3DBA035938744B979BA602C4 /* DB Helvethaica X Ext It v3.2.ttf in Resources */,
+				2EAC523B874B4EDBAAB1CEE5 /* DB Helvethaica X Ext v3.2.ttf in Resources */,
+				5730388408C646CE8B9B42B2 /* DB Helvethaica X It v3.2.ttf in Resources */,
+				263EAD52ADF144359FDE2224 /* DB Helvethaica X Li Cond It v3.2.ttf in Resources */,
+				72B35B40400440BA84F68398 /* DB Helvethaica X Li Cond v3.2.ttf in Resources */,
+				01715EC4E99746A08873DF92 /* DB Helvethaica X Li Ext It v3.2.ttf in Resources */,
+				497160C9ED964652ACFFFE6E /* DB Helvethaica X Li Ext v3.2.ttf in Resources */,
+				B454B94EC7BD48B2ADB4A866 /* DB Helvethaica X Li It v3.2.ttf in Resources */,
+				AA2AD750F2AE43C496A82D59 /* DB Helvethaica X Li v3.2.ttf in Resources */,
+				88023723AD0E454AA1624325 /* DB Helvethaica X Med Cond It v3.2.ttf in Resources */,
+				E0191727585949B299A6AA09 /* DB Helvethaica X Med Cond v3.2.ttf in Resources */,
+				2EABE8E6429B4DD79D499AF6 /* DB Helvethaica X Med Ext It v3.2.ttf in Resources */,
+				8B3EB5D1DB184A2DA9D728BC /* DB Helvethaica X Med Ext v3.2.ttf in Resources */,
+				A623C5FA47E3487FAC27089D /* DB Helvethaica X Med It v3.2.ttf in Resources */,
+				50907B9F1DE24C18923D3EDB /* DB Helvethaica X Med v3.2.ttf in Resources */,
+				C134E7AFC141475BB6E5B363 /* DB Helvethaica X Thin Cond It v3.2.ttf in Resources */,
+				A9075F97FBCA4F6D885A13D0 /* DB Helvethaica X Thin Cond v3.2.ttf in Resources */,
+				A4B990B5414D43A6BB1AA6C7 /* DB Helvethaica X Thin Ext It v3.2.ttf in Resources */,
+				996EA9E53842426B909995B1 /* DB Helvethaica X Thin Ext v3.2.ttf in Resources */,
+				62E8336566D84E218836934F /* DB Helvethaica X Thin It v3.2.ttf in Resources */,
+				10CDDA3E448148628359709D /* DB Helvethaica X Thin v3.2.ttf in Resources */,
+				8AC56ED742794B4A8B2ABCDB /* DB Helvethaica X UlLi Cond It v3.2.ttf in Resources */,
+				236835D63AC6461EB4A0A6A5 /* DB Helvethaica X UlLi Cond v3.2.ttf in Resources */,
+				378379EF054F4F7BA4BF1DA2 /* DB Helvethaica X UlLi Ext It v3.2.ttf in Resources */,
+				1F22D9D262E74E39B233FD97 /* DB Helvethaica X UlLi Ext v3.2.ttf in Resources */,
+				C8213100464A4FED8F63D36D /* DB Helvethaica X UlLi It v3.2.ttf in Resources */,
+				56874235F7D544FA981D67EB /* DB Helvethaica X UlLi v3.2.ttf in Resources */,
+				EFD45624DADA4C97865FE46E /* DB Helvethaica X v3.2.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		08ABA482DDCB3836D30DC856 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ar_sample/Pods-ar_sample-frameworks.sh",
+				"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic/MapboxMobileEvents.framework",
+				"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic/MapboxMobileEvents.framework.dSYM",
+				"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic/BADC3E19-B154-39DA-BE9A-E7C52B45BD0C.bcsymbolmap",
+				"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic/F86F5A50-B0A0-3D96-8330-20AFDAC47DCC.bcsymbolmap",
+				"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic/877E1F78-505A-34B9-A9A0-42F8BFA435B9.bcsymbolmap",
+				"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic/7C38D00F-328F-3E0C-B30E-E47F366F0F3D.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/EF3F193B-8B19-3D7A-9C4D-CC7ACB8FD1B2.bcsymbolmap",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/AF8AFA46-95A0-3C36-89B4-0A23D7D0A613.bcsymbolmap",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/224E36C4-6533-3853-8416-A668FDC17C35.bcsymbolmap",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/E1D60A9C-E180-3412-BFDB-809E8A1C178E.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/RNSensors/RNSensors.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${PODS_ROOT}/../../node_modules/react-viro/ios/dist/ViroRenderer/ViroKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-compass-heading/react_native_compass_heading.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-geolocation/react_native_geolocation.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-mapbox-gl/react_native_mapbox_gl.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/MapboxMobileEvents.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/BADC3E19-B154-39DA-BE9A-E7C52B45BD0C.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/F86F5A50-B0A0-3D96-8330-20AFDAC47DCC.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/877E1F78-505A-34B9-A9A0-42F8BFA435B9.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/7C38D00F-328F-3E0C-B30E-E47F366F0F3D.bcsymbolmap",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/EF3F193B-8B19-3D7A-9C4D-CC7ACB8FD1B2.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/AF8AFA46-95A0-3C36-89B4-0A23D7D0A613.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/224E36C4-6533-3853-8416-A668FDC17C35.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/E1D60A9C-E180-3412-BFDB-809E8A1C178E.bcsymbolmap",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNReanimated.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNSensors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViroKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_compass_heading.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_geolocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_mapbox_gl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ar_sample/Pods-ar_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167340FE49BBBCD5B9130FE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ar_sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27DC1AD4EB969D87EAF19D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ar_sampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		8AA340BF56E50AB45C294B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ar_sample-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42BBFBDF8E454064362F26A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ar_sample/Pods-ar_sample-resources.sh",
+				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitHUD.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/MaterialRobotoFontLoader.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CardboardSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialRobotoFontLoader.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ar_sample/Pods-ar_sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B299BDFE819769A3BAC1C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ar_sample-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ar_sampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* ar_sampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ar_sample */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* ar_sample-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ar_sample;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7909F097034D44B67A90FD8 /* Pods-ar_sampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J632559GCD;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = ar_sampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar_sample.app/ar_sample";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533DFDCEFB88BEB446AE16BD /* Pods-ar_sampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J632559GCD;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = ar_sampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar_sample.app/ar_sample";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E951C2251604D3E54DC4F8A8 /* Pods-ar_sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = J632559GCD;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = ar_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ar_sample;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3123E947B255BAA0F6867782 /* Pods-ar_sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J632559GCD;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = ar_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ar_sample;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBD3C9B1E67156916345D91 /* Pods-ar_sample-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = "ar_sample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ar_sample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B03189ED78B6225CC55B77D /* Pods-ar_sample-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = "ar_sample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ar_sample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FD71D040CE0E35FC6F509D /* Pods-ar_sample-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = "ar_sample-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ar_sample-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar_sample-tvOS.app/ar_sample-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C24E0C5400713BEB93C01EC /* Pods-ar_sample-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-wikitude/ios/RNWikitude/RNWikitude",
+				);
+				INFOPLIST_FILE = "ar_sample-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ar_sample-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar_sample-tvOS.app/ar_sample-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ar_sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ar_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ar_sample-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ar_sample-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ar_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
