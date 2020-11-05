@@ -1,5 +1,4 @@
 PODS:
-  - "@react-native-mapbox-gl-mapbox-static (5.8.0)"
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.61.5)
@@ -28,9 +27,6 @@ PODS:
   - GVRSDK (1.120.0):
     - GoogleToolboxForMac/Logger (= 2.1.0)
     - GTMSessionFetcher/Core (= 1.1.6)
-  - Mapbox-iOS-SDK (5.9.0):
-    - MapboxMobileEvents (= 0.10.2)
-  - MapboxMobileEvents (0.10.2)
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -198,20 +194,6 @@ PODS:
     - React
   - react-native-geolocation (2.0.2):
     - React
-  - react-native-mapbox-gl (8.1.0-rc.4):
-    - "@react-native-mapbox-gl-mapbox-static (~> 5.8)"
-    - Mapbox-iOS-SDK (~> 5.8)
-    - React
-    - react-native-mapbox-gl/DynamicLibrary (= 8.1.0-rc.4)
-    - react-native-mapbox-gl/StaticLibraryFixer (= 8.1.0-rc.4)
-  - react-native-mapbox-gl/DynamicLibrary (8.1.0-rc.4):
-    - "@react-native-mapbox-gl-mapbox-static (~> 5.8)"
-    - Mapbox-iOS-SDK (~> 5.8)
-    - React
-  - react-native-mapbox-gl/StaticLibraryFixer (8.1.0-rc.4):
-    - "@react-native-mapbox-gl-mapbox-static (~> 5.8)"
-    - Mapbox-iOS-SDK (~> 5.8)
-    - React
   - react-native-safe-area-context (3.1.8):
     - React-Core
   - React-RCTActionSheet (0.61.5):
@@ -253,10 +235,10 @@ PODS:
     - React
   - RNGestureHandler (1.8.0):
     - React
-  - RNReanimated (1.13.0):
+  - RNReanimated (1.13.1):
     - React
-  - RNScreens (2.11.0):
-    - React
+  - RNScreens (2.13.0):
+    - React-Core
   - RNSensors (7.0.1):
     - React
   - ViroKit (1.0):
@@ -284,7 +266,6 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-compass-heading (from `../node_modules/react-native-compass-heading`)
   - "react-native-geolocation (from `../node_modules/@react-native-community/geolocation`)"
-  - "react-native-mapbox-gl (from `../node_modules/@react-native-mapbox-gl/maps`)"
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -308,14 +289,11 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - "@react-native-mapbox-gl-mapbox-static"
     - boost-for-react-native
     - GoogleToolboxForMac
     - GTMSessionFetcher
     - GVRAudioSDK
     - GVRSDK
-    - Mapbox-iOS-SDK
-    - MapboxMobileEvents
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -350,8 +328,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-compass-heading"
   react-native-geolocation:
     :path: "../node_modules/@react-native-community/geolocation"
-  react-native-mapbox-gl:
-    :path: "../node_modules/@react-native-mapbox-gl/maps"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-RCTActionSheet:
@@ -392,7 +368,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  "@react-native-mapbox-gl-mapbox-static": e247172bc43f47757f47d6cec1b325b1ab3e9287
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   FBLazyVector: aaeaf388755e4f29cd74acbc9e3b8da6d807c37f
@@ -403,8 +378,6 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 6aacd0ab48ddf0c3633ab2642d792abfcad1b08a
   GVRAudioSDK: 302f0a8f190d855868ea07f246ce4f9b44c392ae
   GVRSDK: 0cb9d0ce06a84d698e61e3db9509766022dcf815
-  Mapbox-iOS-SDK: a5915700ec84bc1a7f8b3e746d474789e35b7956
-  MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -415,9 +388,8 @@ SPEC CHECKSUMS:
   React-jsiexecutor: d5525f9ed5f782fdbacb64b9b01a43a9323d2386
   React-jsinspector: fa0ecc501688c3c4c34f28834a76302233e29dc0
   react-native-compass-heading: 18742617bdb9e06ce104bd3b90f0dc700b791fd1
-  react-native-geolocation: c956aeb136625c23e0dce0467664af2c437888c9
-  react-native-mapbox-gl: b2e4cee6a40cb713cd72846c9573cd5bc468c3d5
-  react-native-safe-area-context: 79fea126c6830c85f65947c223a5e3058a666937
+  react-native-geolocation: cbd9d6bd06bac411eed2671810f454d4908484a8
+  react-native-safe-area-context: 01158a92c300895d79dee447e980672dc3fb85a6
   React-RCTActionSheet: 600b4d10e3aea0913b5a92256d2719c0cdd26d76
   React-RCTAnimation: 791a87558389c80908ed06cc5dfc5e7920dfa360
   React-RCTBlob: d89293cc0236d9cb0933d85e430b0bbe81ad1d72
@@ -428,15 +400,15 @@ SPEC CHECKSUMS:
   React-RCTText: 9ccc88273e9a3aacff5094d2175a605efa854dbe
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
-  RNCMaskedView: 5a8ec07677aa885546a0d98da336457e2bea557f
+  RNCMaskedView: f5c7d14d6847b7b44853f7acb6284c1da30a3459
   RNGestureHandler: 7a5833d0f788dbd107fbb913e09aa0c1ff333c39
-  RNReanimated: 89f5e0a04d1dd52fbf27e7e7030d8f80a646a3fc
-  RNScreens: 0e91da98ab26d5d04c7b59a9b6bd694124caf88c
+  RNReanimated: dd8c286ab5dd4ba36d3a7fef8bff7e08711b5476
+  RNScreens: 13f23e5498fb4aa749d19a5eda7f8792fbb9d01f
   RNSensors: 07c37847fc643356e7f9829800932f7d7c33455a
   ViroKit: b3c0e0d4a40c2e78d31bb09740a49cd8bf6bd68f
   ViroReact: 7ec32276dcd1883662b4587eaedfff67f7fc3625
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 0518abdccc1ce66fe04675ae6d32608400bc3a7b
+PODFILE CHECKSUM: cf31d94e59e908a0916e0ba1e2b75523ab2f3a25
 
 COCOAPODS: 1.9.3

@@ -1,17 +1,14 @@
 import React, {Component} from 'react';
-import {ViroARSceneNavigator, ViroUtils} from 'react-viro';
+import {ViroARSceneNavigator} from 'react-viro';
 import {StyleSheet, View, Text, TouchableOpacity, Image} from 'react-native';
 import Geolocation from '@react-native-community/geolocation';
-import CompassHeading from 'react-native-compass-heading';
 
-import ARTrackingTarget from './ARTrackingTarget';
-import ARTrackingText from './ARTrackingText';
+import DemoArScreen from './DemoArScreen';
 
 const initSharedProps = {
   apiKey: '06232B7B-00EF-49D5-89F2-A254942824C6',
 };
 
-const isARSupportedOnDevice = ViroUtils.isARSupportedOnDevice;
 const degree_update_rate = 3;
 
 export default class ARScreen extends Component {
@@ -21,26 +18,14 @@ export default class ARScreen extends Component {
       sharedProps: initSharedProps,
       latitude: 0,
       longitude: 0,
-      compassHeading: 0,
     };
   }
 
   componentDidMount() {
-    isARSupportedOnDevice(this._handleARNotSupported, this._handleARSupported);
-
     this._currentLocation();
-    this._compassHeading();
   }
 
-  componentWillUnmount() {
-    CompassHeading.stop();
-  }
-
-  _compassHeading() {
-    CompassHeading.start(degree_update_rate, (degree) => {
-      this.setState({compassHeading: degree});
-    });
-  }
+  componentWillUnmount() {}
 
   _currentLocation() {
     // console.log('Current location');
@@ -50,37 +35,16 @@ export default class ARScreen extends Component {
     });
   }
 
-  _handleARSupported() {
-    // console.log('AR supported');
-  }
-  _handleARNotSupported(reason) {
-    // console.log('AR not supported, with reason: ' + reason);
-  }
-
   render() {
-    const {latitude, longitude, compassHeading} = this.state;
+    const {latitude, longitude} = this.state;
 
     return (
       <>
         <ViroARSceneNavigator
           {...this.state.sharedProps}
-          initialScene={{scene: ARTrackingText}}
+          initialScene={{scene: DemoArScreen}}
         />
         <View style={styles.container}>
-          <View
-            style={{
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}>
-            <Image
-              source={require('./res/compass.png')}
-              style={[
-                {width: 70, height: 70},
-                {transform: [{rotate: `${360 - compassHeading}deg`}]},
-              ]}
-            />
-          </View>
-
           <View
             style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
             <Text>{latitude}</Text>

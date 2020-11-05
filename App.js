@@ -2,8 +2,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import ArDetectScreen from './src/ArDetectScreen';
-import DetailScreen from './src/DetailScreen';
+import HomeScreen from './src/HomeScreen';
+import ARScreen from './src/ARScreen';
 
 const RootStack = createStackNavigator();
 const App = () => {
@@ -12,11 +12,11 @@ const App = () => {
       <RootStack.Navigator
         initialRouteName="Detect"
         screenOptions={{
-          headerShown: false,
+          headerShown: true,
           animationEnabled: false,
         }}>
-        <RootStack.Screen name="Detect" component={ArDetectScreen} />
-        <RootStack.Screen name="Detail" component={DetailScreen} />
+        <RootStack.Screen name="Home" component={HomeScreen} />
+        <RootStack.Screen name="ar" component={ARScreen} />
       </RootStack.Navigator>
     </NavigationContainer>
   );
