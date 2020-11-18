@@ -10,7 +10,6 @@ const App = () => {
   return (
     <NavigationContainer>
       <RootStack.Navigator
-        initialRouteName="Detect"
         screenOptions={{
           headerShown: true,
           animationEnabled: false,

@@ -67,4 +67,32 @@ const data = [
   },
 ];
 
-export {data};
+const placeData = [
+  {
+    lat: 13.9069729,
+    lng: 100.513137,
+    name: 'Panda FC',
+  },
+  {
+    lat: 13.9057969,
+    lng: 100.5287386,
+    name: 'Summer Garden',
+  },
+  {
+    lat: 13.9035076,
+    lng: 100.5284241,
+    name: 'Central Chaengwattana',
+  },
+  {
+    lat: 13.9040363,
+    lng: 100.5313903,
+    name: 'Health Land',
+  },
+  {
+    lat: 13.90677,
+    lng: 100.5306573,
+    name: 'Proud Condo',
+  },
+];
+
+export {data, placeData};

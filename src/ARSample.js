@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {StyleSheet, ActivityIndicator, View} from 'react-native';
+import {StyleSheet} from 'react-native';
+import Geolocation from '@react-native-community/geolocation';
 import {
-  ViroARSceneNavigator,
   ViroARScene,
   ViroConstants,
   ViroText,
@@ -16,44 +16,43 @@ import {
   getScale,
 } from './utils/distance.helper';
 
-const initSharedProps = {
-  apiKey: '06232B7B-00EF-49D5-89F2-A254942824C6',
-};
-
-export default class ARScreen extends Component {
+export class ARSample extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      sharedProps: initSharedProps,
-      latitude: 0.0,
-      longitude: 0.0,
+      latitude: 13.9044504,
+      longitude: 100.5299397,
       degree: -1,
       arData: null,
-      isLoading: true,
     };
   }
 
+  watchID = null;
+
   componentDidMount() {
-    const degree = this.props.route.params.degree;
-    const myLocation = this.props.route.params.myLocation;
-    this.setState({
-      degree,
-      latitude: myLocation.latitude,
-      longitude: myLocation.longitude,
-    });
+    // this.requestGeoLocation();
   }
 
-  _onInitialized = (state) => {
-    if (state == ViroConstants.TRACKING_NORMAL) {
-      const {latitude, longitude} = this.state;
+  componentWillUnmount() {
+    this.watchID != null && Geolocation.clearWatch(this.watchID);
+  }
 
-      placeData.map((item, index) => {
-        const ar = transformPointToAR(item.lat, item.lng, latitude, longitude);
-        placeData[index] = {...item, ...ar};
-      });
+  requestGeoLocation = () => {
+    Geolocation.getCurrentPosition(
+      (position) => {
+        this.setState({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+        });
+      },
+      (error) => console.log('Geolocation error:', JSON.stringify(error)),
+      {enableHighAccuracy: false, timeout: 20000, maximumAge: 1000},
+    );
 
-      this.setState({arData: placeData, isLoading: false});
-    }
+    this.watchID = Geolocation.watchPosition((position) => {
+      this.setState({lastPosition: position});
+    });
   };
 
   _renderCardView = ({item, index}) => {
@@ -86,7 +85,7 @@ export default class ARScreen extends Component {
     );
   };
 
-  _arScene = () => {
+  render() {
     const {degree, arData} = this.state;
 
     return (
@@ -102,30 +101,23 @@ export default class ARScreen extends Component {
         )}
       </ViroARScene>
     );
-  };
-
-  render() {
-    const {isLoading} = this.state;
-    return (
-      <>
-        <ViroARSceneNavigator
-          {...this.state.sharedProps}
-          initialScene={{scene: this._arScene}}
-        />
-
-        {isLoading && <Loading />}
-      </>
-    );
   }
+
+  _onInitialized = (state) => {
+    if (state == ViroConstants.TRACKING_NORMAL) {
+      const {latitude, longitude} = this.state;
+
+      placeData.map((item, index) => {
+        const ar = transformPointToAR(item.lat, item.lng, latitude, longitude);
+        placeData[index] = {...item, ...ar};
+      });
+
+      this.setState({arData: placeData});
+    }
+  };
 }
 
-function Loading() {
-  return (
-    <View style={styles.loading}>
-      <ActivityIndicator size="large" color="tomato" />
-    </View>
-  );
-}
+export default ARSample;
 
 const styles = StyleSheet.create({
   titleContainer: {
@@ -155,15 +147,5 @@ const styles = StyleSheet.create({
     width: 3.5,
     height: 0.02,
     backgroundColor: 'white',
-  },
-  loading: {
-    position: 'absolute',
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.7)',
   },
 });
