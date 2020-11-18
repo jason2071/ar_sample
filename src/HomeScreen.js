@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
 import React, {useEffect, useState} from 'react';
-import {View, Button} from 'react-native';
+import {View, Button, Text} from 'react-native';
 import CompassHeading from 'react-native-compass-heading';
 import Geolocation from '@react-native-community/geolocation';
 
@@ -57,6 +57,11 @@ export default function HomeScreen({navigation}) {
         disabled={myLocation.disabled}
         onPress={() => navigation.navigate('ar', {degree, myLocation})}
       />
+
+      <View style={{height: 20}} />
+
+      <Text>{`degree: ${degree}`}</Text>
+      <Text>{`location: ${myLocation.latitude}, ${myLocation.longitude}`}</Text>
     </View>
   );
 }
