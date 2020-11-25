@@ -58,7 +58,7 @@ export class ARSample extends Component {
   _renderCardView = ({item, index}) => {
     const {latitude, longitude} = this.state;
     const distance = getDistance(item.lat, item.lng, latitude, longitude, 'K');
-    const scale = getScale(distance, 1, 10) * 20;
+    const scale = getScale(distance, 1, 10);
 
     return (
       <ViroFlexView

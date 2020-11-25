@@ -4,7 +4,7 @@ import {View, Button, Text} from 'react-native';
 import CompassHeading from 'react-native-compass-heading';
 import Geolocation from '@react-native-community/geolocation';
 
-const degree_update_rate = 3;
+const degree_update_rate = 1;
 let watchID = null;
 
 export default function HomeScreen({navigation}) {

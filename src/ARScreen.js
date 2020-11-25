@@ -7,9 +7,13 @@ import {
   ViroText,
   ViroFlexView,
   ViroCamera,
+  ViroMaterials,
+  ViroSound,
 } from 'react-viro';
 
-import {placeData} from './data/mocks';
+import projector from 'ecef-projector';
+
+import {placeData, objectData} from './data/mocks';
 import {
   transformPointToAR,
   getDistance,
@@ -47,42 +51,76 @@ export default class ARScreen extends Component {
     if (state == ViroConstants.TRACKING_NORMAL) {
       const {latitude, longitude} = this.state;
 
-      placeData.map((item, index) => {
+      objectData.map((item, index) => {
         const ar = transformPointToAR(item.lat, item.lng, latitude, longitude);
-        placeData[index] = {...item, ...ar};
+        objectData[index] = {...item, ...ar};
       });
 
-      this.setState({arData: placeData, isLoading: false});
+      this.setState({arData: objectData, isLoading: false});
     }
   };
 
   _renderCardView = ({item, index}) => {
-    const {latitude, longitude} = this.state;
-    const distance = getDistance(item.lat, item.lng, latitude, longitude, 'K');
-    const scale = getScale(distance, 1, 10) * 20;
+    const {latitude, longitude, degree} = this.state;
+    const distance = getDistance(item.lat, item.lng, latitude, longitude);
+
+    const distanceText =
+      distance > 1000
+        ? `${Math.round(distance / 1000)} กิโลเมตร`
+        : `${Math.round(distance)} เมตร`;
+
+    const disKm = distance / 1000;
+    let scale = getScale(distance, 1, 2);
+
+    if (disKm > 700) {
+      scale = getScale(distance, 1, disKm * 30);
+    } else if (disKm > 600) {
+      scale = getScale(distance, 1, disKm * 25);
+    } else if (disKm > 100) {
+      scale = getScale(distance, 1, disKm * 20);
+    } else if (disKm > 60) {
+      scale = getScale(distance, 1, disKm * 10);
+    }
+
+    console.log('distance', distance / 1000);
+    console.log('scale', scale);
 
     return (
-      <ViroFlexView
-        key={`place-ar-${index}-${item.distance}`}
-        style={styles.titleContainer}
-        scale={[scale, scale, scale]}
-        position={[item.x, 0, item.z]}
-        height={2}
-        width={4}
-        transformBehaviors={'billboard'}>
-        <ViroFlexView style={styles.rowContainer}>
-          <ViroText text={item.name} style={styles.prodTitleText} />
-        </ViroFlexView>
+      <ViroCamera
+        key={`place-ar-${index}`}
+        position={[0, 0, 0]}
+        rotation={[0, degree, 0]}
+        active={false}>
+        <ViroFlexView
+          style={styles.titleContainer}
+          scale={[scale, scale, scale]}
+          position={[item.x, 0, item.z]}
+          height={2.5}
+          width={4}
+          materials="marker"
+          transformBehaviors={'billboard'}>
+          <ViroFlexView style={styles.rowContainer}>
+            <ViroText
+              text={'憂郁 中文 ようこそ 어서 오십시오'}
+              textAlign="left"
+              textAlignVertical="top"
+              textLineBreakMode="justify"
+              textClipMode="clipToBounds"
+              style={{
+                fontFamily: 'monospace',
+                fontSize: 20,
+                color: 'white',
+              }}
+            />
+          </ViroFlexView>
 
-        <ViroFlexView style={styles.divider} />
+          <ViroFlexView style={styles.divider} />
 
-        <ViroFlexView style={styles.rowContainer}>
-          <ViroText
-            text={`${distance.toFixed(2)} KM`}
-            style={styles.prodDescriptionText}
-          />
+          <ViroFlexView style={styles.rowContainer}>
+            <ViroText text={distanceText} style={styles.prodDescriptionText} />
+          </ViroFlexView>
         </ViroFlexView>
-      </ViroFlexView>
+      </ViroCamera>
     );
   };
 
@@ -91,20 +129,20 @@ export default class ARScreen extends Component {
 
     return (
       <ViroARScene onTrackingUpdated={this._onInitialized}>
-        {degree > -1 && (
-          <ViroCamera
-            position={[0, 0, 0]}
-            rotation={[0, degree, 0]}
-            active={false}>
-            {arData &&
-              arData.map((item, index) => this._renderCardView({item, index}))}
-          </ViroCamera>
-        )}
+        {degree > -1 &&
+          arData &&
+          arData.map((item, index) => this._renderCardView({item, index}))}
       </ViroARScene>
     );
   };
 
   render() {
+    ViroMaterials.createMaterials({
+      marker: {
+        diffuseTexture: require('./assets/images/tag.png'),
+      },
+    });
+
     const {isLoading} = this.state;
     return (
       <>
@@ -130,7 +168,6 @@ function Loading() {
 const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'column',
-    backgroundColor: 'steelblue',
     padding: 0.2,
   },
   rowContainer: {
@@ -150,6 +187,7 @@ const styles = StyleSheet.create({
     textAlignVertical: 'center',
     textAlign: 'left',
     flex: 1,
+    fontFamily: 'Roboto',
   },
   divider: {
     width: 3.5,

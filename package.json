@@ -7,8 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
-    "gvr": "react-native run-android --variant=gvrDebug"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@react-native-community/geolocation": "^2.0.2",

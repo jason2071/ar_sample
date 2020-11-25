@@ -95,4 +95,70 @@ const placeData = [
   },
 ];
 
-export {data, placeData};
+const objectData = [
+  {
+    object_id: 1531,
+    name: 'ไหว้พระ นครพนม',
+    description: '',
+    lat: 16.94261589,
+    lng: 104.72382378,
+  },
+  {
+    object_id: 2198,
+    name: 'Attraction 101',
+    description: '',
+    lat: 13.90441814,
+    lng: 100.52932229,
+  },
+  {
+    object_id: 2199,
+    name: 'Thanks',
+    description: '',
+    lat: 13.90423296,
+    lng: 100.52974608,
+  },
+  // {
+  //   object_id: 2200,
+  //   name: 'เชียงราย',
+  //   description: '',
+  //   lat: 19.7328828,
+  //   lng: 99.3579277,
+  // },
+  // {
+  //   object_id: 3,
+  //   name: 'เขตปกครองตนเองชนชาติไท สิบสองปันนา',
+  //   description: '',
+  //   lat: 21.9794104,
+  //   lng: 100.6745828,
+  // },
+  // {
+  //   object_id: 4,
+  //   name: 'หลินชาง',
+  //   description: 'มณฑลยูนนาน จีน',
+  //   lat: 23.8853827,
+  //   lng: 100.0542063,
+  // },
+  {
+    object_id: 5,
+    name: 'นครราชสีมา',
+    description: 'นครราชสีมา',
+    lat: 14.9644621,
+    lng: 101.5362082,
+  },
+  {
+    object_id: 6,
+    name: 'อุทยานแห่งชาติแม่ปิง',
+    description: '',
+    lat: 17.9020725,
+    lng: 99.8360537,
+  },
+  {
+    object_id: 7,
+    name: 'นครสวรรค์',
+    description: '',
+    lat: 15.6212182,
+    lng: 99.6798063,
+  },
+];
+
+export {data, placeData, objectData};
