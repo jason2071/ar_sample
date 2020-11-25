@@ -16,7 +16,9 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13BD3DC6512441FCA202303E /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2A467CE3B6A411C909E0B6B /* Kanit-Thin.ttf */; };
 		1F22D9D262E74E39B233FD97 /* DB Helvethaica X UlLi Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA54E53C31AF4723941518F6 /* DB Helvethaica X UlLi Ext v3.2.ttf */; };
+		2055505DBB524894AC1333BA /* Kanit-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2411E2D6E1F24ED692EE9DF4 /* Kanit-ExtraBoldItalic.ttf */; };
 		236835D63AC6461EB4A0A6A5 /* DB Helvethaica X UlLi Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 257C7583FC9A4305BE798211 /* DB Helvethaica X UlLi Cond v3.2.ttf */; };
 		263EAD52ADF144359FDE2224 /* DB Helvethaica X Li Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1993C7C0A3BA462C9B44A399 /* DB Helvethaica X Li Cond It v3.2.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -25,26 +27,36 @@
 		2DCD954D1E0B4F2C00145EB5 /* ar_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ar_sampleTests.m */; };
 		2EABE8E6429B4DD79D499AF6 /* DB Helvethaica X Med Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D55A12A27B9847168D536A4A /* DB Helvethaica X Med Ext It v3.2.ttf */; };
 		2EAC523B874B4EDBAAB1CEE5 /* DB Helvethaica X Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11A01A86F9C14103B6DB6C91 /* DB Helvethaica X Ext v3.2.ttf */; };
+		30F87985A43B48FBB9E09BAC /* Kanit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66A57BDA51EF40F3A1CC77A3 /* Kanit-ExtraBold.ttf */; };
+		32D4D98E58DE444497AC19F5 /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3691F90246C439F94D4437A /* Kanit-Regular.ttf */; };
+		364566D054E9429ABD60A9D6 /* Kanit-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28E5F1E4BF9F4A43A611909E /* Kanit-BlackItalic.ttf */; };
 		378379EF054F4F7BA4BF1DA2 /* DB Helvethaica X UlLi Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C48C890DA8342E18EFD1F3C /* DB Helvethaica X UlLi Ext It v3.2.ttf */; };
 		3DBA035938744B979BA602C4 /* DB Helvethaica X Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAB2217C36E54769A8BEFD1A /* DB Helvethaica X Ext It v3.2.ttf */; };
+		3E50EB8ED86A467192226C2D /* Kanit-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F06D818B75147B9ABED2120 /* Kanit-MediumItalic.ttf */; };
 		48353170F3464D4B9F5FC72D /* DB Helvethaica X Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0186D9758E8F411DBD8FBA6A /* DB Helvethaica X Cond It v3.2.ttf */; };
 		497160C9ED964652ACFFFE6E /* DB Helvethaica X Li Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8C37D32184AFD8A646018 /* DB Helvethaica X Li Ext v3.2.ttf */; };
+		4A1B14AC901C40CBA335F7CF /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0067CB8239AE4CF086AB9EF0 /* Kanit-SemiBold.ttf */; };
 		50907B9F1DE24C18923D3EDB /* DB Helvethaica X Med v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA8FAD3300E4A46B0AE2070 /* DB Helvethaica X Med v3.2.ttf */; };
 		535457D455274A2CB8914F77 /* DB Helvethaica X Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F6FC55A32ED42A4862E9E3C /* DB Helvethaica X Cond v3.2.ttf */; };
 		56874235F7D544FA981D67EB /* DB Helvethaica X UlLi v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2706E6856F8D43358D81AA79 /* DB Helvethaica X UlLi v3.2.ttf */; };
 		56C74BDF1870464486631AB9 /* DB Helvethaica X Blk Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 540D344DD24E4D9C9F8F05D1 /* DB Helvethaica X Blk Ext It v3.2.ttf */; };
 		5730388408C646CE8B9B42B2 /* DB Helvethaica X It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41CEAF5CAACF4039AFBEA3EE /* DB Helvethaica X It v3.2.ttf */; };
 		62E8336566D84E218836934F /* DB Helvethaica X Thin It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AE2EA9851540AFAE78A00F /* DB Helvethaica X Thin It v3.2.ttf */; };
+		6AF747F1905641738BEEF1A8 /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D05F4D2477F943E6B79A1E2B /* Kanit-Bold.ttf */; };
 		6FB82C1F9B5F4B22899620C8 /* DB Heavent UlLi It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E491B8510824A37BDA4D5B8 /* DB Heavent UlLi It v3.2.1.ttf */; };
 		72B35B40400440BA84F68398 /* DB Helvethaica X Li Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC45361A9EA48BBA4E16C47 /* DB Helvethaica X Li Cond v3.2.ttf */; };
 		747C04342CE947DA975B691B /* DB Heavent Blk v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6087BCF124771B0E53EC6 /* DB Heavent Blk v3.2.1.ttf */; };
+		768947C5AE6F4E51BF2F845A /* Kanit-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1D593ACD0324B63B6C9E420 /* Kanit-ExtraLightItalic.ttf */; };
 		77E47B77F5918709EC604B9F /* libPods-ar_sample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D020F9152FDC3F386A9EB0 /* libPods-ar_sample-tvOS.a */; };
+		78BF742DC5344E3186703E54 /* Kanit-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FA41DDC03F345D783F04A42 /* Kanit-SemiBoldItalic.ttf */; };
 		799DEAFAB0B246CD8D70C1D0 /* DB Helvethaica X Bd It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DA5A044553043E59F99DA73 /* DB Helvethaica X Bd It v3.2.ttf */; };
 		7EB95706E4AF49918B070612 /* DB Helvethaica X Blk Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D11B2CFAE4C439BAFF5AD15 /* DB Helvethaica X Blk Ext v3.2.ttf */; };
 		83E81DBC9ACE4944949F9E96 /* DB Heavent It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606D33A416D84A5C81C7D803 /* DB Heavent It v3.2.1.ttf */; };
 		88023723AD0E454AA1624325 /* DB Helvethaica X Med Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621BDB01E8CF422BB289DDAD /* DB Helvethaica X Med Cond It v3.2.ttf */; };
 		8AC56ED742794B4A8B2ABCDB /* DB Helvethaica X UlLi Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330F3031E333460C9A3257C3 /* DB Helvethaica X UlLi Cond It v3.2.ttf */; };
 		8B3EB5D1DB184A2DA9D728BC /* DB Helvethaica X Med Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BFE8917370841ADBF874FAE /* DB Helvethaica X Med Ext v3.2.ttf */; };
+		8B9DDDFF881B43B2800E54BE /* Kanit-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E3C4CEB0C3C42B2BD3B998A /* Kanit-ThinItalic.ttf */; };
+		9887CBD7D12B482181C5DAAC /* Kanit-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DC7183B49A34DD3A314BD6B /* Kanit-BoldItalic.ttf */; };
 		996EA9E53842426B909995B1 /* DB Helvethaica X Thin Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8AA52D23128491EB587CE68 /* DB Helvethaica X Thin Ext v3.2.ttf */; };
 		9DC3E41DFD15402E862F729A /* DB Heavent Thin It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07A4854B1D674F2FA0D5A999 /* DB Heavent Thin It v3.2.1.ttf */; };
 		A090EDED5DEA48BE82C1BE93 /* DB Helvethaica X Bd Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCFCC9DA4846429FDE90E1 /* DB Helvethaica X Bd Cond v3.2.ttf */; };
@@ -53,12 +65,15 @@
 		A623C5FA47E3487FAC27089D /* DB Helvethaica X Med It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606165784991498E8BD2E793 /* DB Helvethaica X Med It v3.2.ttf */; };
 		A7F2364065384BA396B0FFAA /* DB Heavent Li v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 335DEF0280824487A70A9542 /* DB Heavent Li v3.2.1.ttf */; };
 		A9075F97FBCA4F6D885A13D0 /* DB Helvethaica X Thin Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2C5E1202BB14508AE5C1E21 /* DB Helvethaica X Thin Cond v3.2.ttf */; };
+		AA0CDDA01CA84DDB9926BBFC /* Kanit-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30C1128F346A4724B0C93189 /* Kanit-LightItalic.ttf */; };
 		AA2AD750F2AE43C496A82D59 /* DB Helvethaica X Li v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C96F2DC6E634A268C5C4170 /* DB Helvethaica X Li v3.2.ttf */; };
 		B03D69E0974048A79B67A913 /* DB Helvethaica X Blk Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B00DA8D821484A9FBBD0232E /* DB Helvethaica X Blk Cond v3.2.ttf */; };
 		B1A21ED366A24B18B8F0304E /* DB Helvethaica X Bd Ext It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBADAA902A824E51B6BF6F2C /* DB Helvethaica X Bd Ext It v3.2.ttf */; };
 		B454B94EC7BD48B2ADB4A866 /* DB Helvethaica X Li It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23237200A2664C5BA3D554F3 /* DB Helvethaica X Li It v3.2.ttf */; };
+		B56331A339B64C42ACA6C307 /* Kanit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBDA8B5B19D43F99F4E38FD /* Kanit-ExtraLight.ttf */; };
 		B6147E6D11A1494A8C9E7594 /* DB Heavent Blk It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7978354630E94B258AC75026 /* DB Heavent Blk It v3.2.1.ttf */; };
 		B71F828FCC9F4FAAB2A7DFF9 /* DB Helvethaica X Blk It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC54E0E43DA48A3A260298C /* DB Helvethaica X Blk It v3.2.ttf */; };
+		B7B409FB6D284819A030F1FA /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9C2A0233B614E89B4B30BED /* Kanit-Black.ttf */; };
 		BA03161E403C43E4EF24D76F /* Pods_ar_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AD70BAEBD500C3E4403EF4 /* Pods_ar_sample.framework */; };
 		BCF9521452D541B99E172FDE /* DB Helvethaica X Blk Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9434CBA136F45A78598F2B5 /* DB Helvethaica X Blk Cond It v3.2.ttf */; };
 		C0EEAACDEDA4449E973D2B26 /* DB Heavent UlLi v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACDB374F5FBA4892A0EE0346 /* DB Heavent UlLi v3.2.1.ttf */; };
@@ -67,15 +82,23 @@
 		C8213100464A4FED8F63D36D /* DB Helvethaica X UlLi It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D65001E5D5554F6BAEF53870 /* DB Helvethaica X UlLi It v3.2.ttf */; };
 		CBAAD8DE8C2F4222B89E432B /* DB Heavent Bd It v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 058C80DE75B7423AB4F972EE /* DB Heavent Bd It v3.2.1.ttf */; };
 		D04F83A95A4D4F14AD50E111 /* DB Helvethaica X Bd v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C081D40B02E64433B9F966DA /* DB Helvethaica X Bd v3.2.ttf */; };
+		D7FCD71BE7BF4F94908FBBCC /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8910FA5DF9E74527AB78991D /* Kanit-Medium.ttf */; };
 		D964495F6F8D481488AAE934 /* DB Helvethaica X Bd Ext v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE42907A33F452CA5403ACF /* DB Helvethaica X Bd Ext v3.2.ttf */; };
+		DBEB2EA4A9CA4CBE8FF22B90 /* Kanit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86CBEAE622C64EA18B00D68B /* Kanit-Light.ttf */; };
 		DCC1010CD232414798B5CF67 /* DB Heavent Thin v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B608C1E5F6D849F6A5882A07 /* DB Heavent Thin v3.2.1.ttf */; };
 		DF74D2A24B37DE4594D25535 /* Pods_ar_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B6DA629550DB1EDA081493 /* Pods_ar_sampleTests.framework */; };
 		E0191727585949B299A6AA09 /* DB Helvethaica X Med Cond v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D63D6010FDE44508EB3B635 /* DB Helvethaica X Med Cond v3.2.ttf */; };
 		EBC9EC91A6434AE496F1C671 /* DB Helvethaica X Bd Cond It v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA826B064BDD4A5B8D0724A7 /* DB Helvethaica X Bd Cond It v3.2.ttf */; };
 		EFD45624DADA4C97865FE46E /* DB Helvethaica X v3.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA0146D1C44D29B7504E0F /* DB Helvethaica X v3.2.ttf */; };
 		F7D02FFBA1804CCC951ACFBA /* DB Heavent Bd v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A53A7B9EB264C0F914B5D59 /* DB Heavent Bd v3.2.1.ttf */; };
+		F85D0A66AC8B4EE688D22574 /* Kanit-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBDF597F8D6481CB4CEE0CA /* Kanit-Italic.ttf */; };
 		FAEEB0ECEAC14B67AC5B854D /* DB Heavent Med v3.2.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA111DC2CD3D4DA5BF6A2D6C /* DB Heavent Med v3.2.1.ttf */; };
 		FFDBE3AA27E34A328FFEC202 /* libPods-ar_sample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A61AFBCD0B52A65457DF36 /* libPods-ar_sample-tvOSTests.a */; };
+		1DE1CD20D30F47719CFC78C4 /* NotoSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5413FDEDAB4561A5FFA844 /* NotoSansThai-Bold.ttf */; };
+		0AC566E31BD84470AFCB0E76 /* NotoSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 022A729B9C4542009682DAAA /* NotoSansThai-Light.ttf */; };
+		564497E32CF849C7A1525CA7 /* NotoSansThai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0433EBE784A4AAF1DB4F8 /* NotoSansThai-Medium.ttf */; };
+		740739987EEF4DFD9F053235 /* NotoSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C4AACB699C4473FBF6D9132 /* NotoSansThai-Regular.ttf */; };
+		0C468762EDC84415A8EEDC32 /* NotoSansThai-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3C3E965776A47D4A5D960C9 /* NotoSansThai-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +119,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0067CB8239AE4CF086AB9EF0 /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-SemiBold.ttf"; path = "../src/assets/fonts/Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* ar_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ar_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +134,7 @@
 		0D3CCCAF6CD9485483A02CAF /* DB Helvethaica X Blk v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Blk v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk v3.2.ttf"; sourceTree = "<group>"; };
 		0D63D6010FDE44508EB3B635 /* DB Helvethaica X Med Cond v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Med Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Cond v3.2.ttf"; sourceTree = "<group>"; };
 		0DA5A044553043E59F99DA73 /* DB Helvethaica X Bd It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Bd It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd It v3.2.ttf"; sourceTree = "<group>"; };
+		0DBDF597F8D6481CB4CEE0CA /* Kanit-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Italic.ttf"; path = "../src/assets/fonts/Kanit-Italic.ttf"; sourceTree = "<group>"; };
 		0E491B8510824A37BDA4D5B8 /* DB Heavent UlLi It v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent UlLi It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent UlLi It v3.2.1.ttf"; sourceTree = "<group>"; };
 		10CE4551D4C44C98AB37E10E /* DB Helvethaica X Thin v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Thin v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin v3.2.ttf"; sourceTree = "<group>"; };
 		11A01A86F9C14103B6DB6C91 /* DB Helvethaica X Ext v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Ext v3.2.ttf"; sourceTree = "<group>"; };
@@ -126,12 +151,15 @@
 		1BA8FAD3300E4A46B0AE2070 /* DB Helvethaica X Med v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Med v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med v3.2.ttf"; sourceTree = "<group>"; };
 		1EC0D21DF17741DFAED60664 /* DB Helvethaica X Li Ext It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Li Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Ext It v3.2.ttf"; sourceTree = "<group>"; };
 		23237200A2664C5BA3D554F3 /* DB Helvethaica X Li It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Li It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li It v3.2.ttf"; sourceTree = "<group>"; };
+		2411E2D6E1F24ED692EE9DF4 /* Kanit-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Kanit-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		257C7583FC9A4305BE798211 /* DB Helvethaica X UlLi Cond v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X UlLi Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Cond v3.2.ttf"; sourceTree = "<group>"; };
 		2706E6856F8D43358D81AA79 /* DB Helvethaica X UlLi v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X UlLi v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi v3.2.ttf"; sourceTree = "<group>"; };
+		28E5F1E4BF9F4A43A611909E /* Kanit-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-BlackItalic.ttf"; path = "../src/assets/fonts/Kanit-BlackItalic.ttf"; sourceTree = "<group>"; };
 		2C24E0C5400713BEB93C01EC /* Pods-ar_sample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOSTests/Pods-ar_sample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ar_sample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar_sample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ar_sample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar_sample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEA0146D1C44D29B7504E0F /* DB Helvethaica X v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X v3.2.ttf"; sourceTree = "<group>"; };
+		30C1128F346A4724B0C93189 /* Kanit-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-LightItalic.ttf"; path = "../src/assets/fonts/Kanit-LightItalic.ttf"; sourceTree = "<group>"; };
 		3123E947B255BAA0F6867782 /* Pods-ar_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample.release.xcconfig"; path = "Target Support Files/Pods-ar_sample/Pods-ar_sample.release.xcconfig"; sourceTree = "<group>"; };
 		330F3031E333460C9A3257C3 /* DB Helvethaica X UlLi Cond It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X UlLi Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Cond It v3.2.ttf"; sourceTree = "<group>"; };
 		335DEF0280824487A70A9542 /* DB Heavent Li v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent Li v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Li v3.2.1.ttf"; sourceTree = "<group>"; };
@@ -141,6 +169,7 @@
 		41CEAF5CAACF4039AFBEA3EE /* DB Helvethaica X It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X It v3.2.ttf"; sourceTree = "<group>"; };
 		4A93AF34255546C5A23E58A3 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		4BE6087BCF124771B0E53EC6 /* DB Heavent Blk v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent Blk v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Blk v3.2.1.ttf"; sourceTree = "<group>"; };
+		4DC7183B49A34DD3A314BD6B /* Kanit-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-BoldItalic.ttf"; path = "../src/assets/fonts/Kanit-BoldItalic.ttf"; sourceTree = "<group>"; };
 		533DFDCEFB88BEB446AE16BD /* Pods-ar_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sampleTests.release.xcconfig"; path = "Target Support Files/Pods-ar_sampleTests/Pods-ar_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		540D344DD24E4D9C9F8F05D1 /* DB Helvethaica X Blk Ext It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Blk Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk Ext It v3.2.ttf"; sourceTree = "<group>"; };
 		5BFE8917370841ADBF874FAE /* DB Helvethaica X Med Ext v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Med Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Ext v3.2.ttf"; sourceTree = "<group>"; };
@@ -150,17 +179,25 @@
 		606D33A416D84A5C81C7D803 /* DB Heavent It v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent It v3.2.1.ttf"; sourceTree = "<group>"; };
 		621BDB01E8CF422BB289DDAD /* DB Helvethaica X Med Cond It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Med Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Cond It v3.2.ttf"; sourceTree = "<group>"; };
 		638821AF847D4BF5A32B9F14 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		66A57BDA51EF40F3A1CC77A3 /* Kanit-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-ExtraBold.ttf"; path = "../src/assets/fonts/Kanit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6F06D818B75147B9ABED2120 /* Kanit-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-MediumItalic.ttf"; path = "../src/assets/fonts/Kanit-MediumItalic.ttf"; sourceTree = "<group>"; };
 		6F6FC55A32ED42A4862E9E3C /* DB Helvethaica X Cond v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Cond v3.2.ttf"; sourceTree = "<group>"; };
+		6FA41DDC03F345D783F04A42 /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		720AFEC8CBC84A67840BBFFE /* DB Heavent Med It v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent Med It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Med It v3.2.1.ttf"; sourceTree = "<group>"; };
 		729D6076FC274927972A5D2E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		7978354630E94B258AC75026 /* DB Heavent Blk It v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent Blk It v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Blk It v3.2.1.ttf"; sourceTree = "<group>"; };
 		7A53A7B9EB264C0F914B5D59 /* DB Heavent Bd v3.2.1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Heavent Bd v3.2.1.ttf"; path = "../src/assets/fonts/DB Heavent Bd v3.2.1.ttf"; sourceTree = "<group>"; };
 		7A574DFEE0A84F11BCD9A229 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		7B03189ED78B6225CC55B77D /* Pods-ar_sample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOS/Pods-ar_sample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		86CBEAE622C64EA18B00D68B /* Kanit-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Light.ttf"; path = "../src/assets/fonts/Kanit-Light.ttf"; sourceTree = "<group>"; };
+		8910FA5DF9E74527AB78991D /* Kanit-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Medium.ttf"; path = "../src/assets/fonts/Kanit-Medium.ttf"; sourceTree = "<group>"; };
 		899ACCBB290945E3877DC553 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		8C96F2DC6E634A268C5C4170 /* DB Helvethaica X Li v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Li v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li v3.2.ttf"; sourceTree = "<group>"; };
+		8CBDA8B5B19D43F99F4E38FD /* Kanit-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-ExtraLight.ttf"; path = "../src/assets/fonts/Kanit-ExtraLight.ttf"; sourceTree = "<group>"; };
 		91E8C37D32184AFD8A646018 /* DB Helvethaica X Li Ext v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Li Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Ext v3.2.ttf"; sourceTree = "<group>"; };
 		9589F864377F4DBC8531EAA3 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		9E3C4CEB0C3C42B2BD3B998A /* Kanit-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-ThinItalic.ttf"; path = "../src/assets/fonts/Kanit-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A3691F90246C439F94D4437A /* Kanit-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Regular.ttf"; path = "../src/assets/fonts/Kanit-Regular.ttf"; sourceTree = "<group>"; };
 		A8A61AFBCD0B52A65457DF36 /* libPods-ar_sample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ar_sample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AD70BAEBD500C3E4403EF4 /* Pods_ar_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ar_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA54E53C31AF4723941518F6 /* DB Helvethaica X UlLi Ext v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X UlLi Ext v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi Ext v3.2.ttf"; sourceTree = "<group>"; };
@@ -174,6 +211,7 @@
 		BA826B064BDD4A5B8D0724A7 /* DB Helvethaica X Bd Cond It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Bd Cond It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd Cond It v3.2.ttf"; sourceTree = "<group>"; };
 		BB26A4CA5B564B849FA29DF6 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		C081D40B02E64433B9F966DA /* DB Helvethaica X Bd v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Bd v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Bd v3.2.ttf"; sourceTree = "<group>"; };
+		C1D593ACD0324B63B6C9E420 /* Kanit-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Kanit-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		C29F7B8F090E4CDEB0E3BA83 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		C8AE2EA9851540AFAE78A00F /* DB Helvethaica X Thin It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Thin It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Thin It v3.2.ttf"; sourceTree = "<group>"; };
 		C8E66DE38507420D83CC96DF /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
@@ -182,6 +220,7 @@
 		CAB2217C36E54769A8BEFD1A /* DB Helvethaica X Ext It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Ext It v3.2.ttf"; sourceTree = "<group>"; };
 		CCBD3C9B1E67156916345D91 /* Pods-ar_sample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ar_sample-tvOS/Pods-ar_sample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9ADAB28CB14919B2327996 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D05F4D2477F943E6B79A1E2B /* Kanit-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Bold.ttf"; path = "../src/assets/fonts/Kanit-Bold.ttf"; sourceTree = "<group>"; };
 		D55A12A27B9847168D536A4A /* DB Helvethaica X Med Ext It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Med Ext It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Med Ext It v3.2.ttf"; sourceTree = "<group>"; };
 		D65001E5D5554F6BAEF53870 /* DB Helvethaica X UlLi It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X UlLi It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X UlLi It v3.2.ttf"; sourceTree = "<group>"; };
 		D8A71CA03E0F48F996FC3214 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
@@ -192,9 +231,16 @@
 		E951C2251604D3E54DC4F8A8 /* Pods-ar_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ar_sample.debug.xcconfig"; path = "Target Support Files/Pods-ar_sample/Pods-ar_sample.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F2A467CE3B6A411C909E0B6B /* Kanit-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Thin.ttf"; path = "../src/assets/fonts/Kanit-Thin.ttf"; sourceTree = "<group>"; };
 		F4D020F9152FDC3F386A9EB0 /* libPods-ar_sample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ar_sample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C2A0233B614E89B4B30BED /* Kanit-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Black.ttf"; path = "../src/assets/fonts/Kanit-Black.ttf"; sourceTree = "<group>"; };
 		FBC54E0E43DA48A3A260298C /* DB Helvethaica X Blk It v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Blk It v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Blk It v3.2.ttf"; sourceTree = "<group>"; };
 		FEC45361A9EA48BBA4E16C47 /* DB Helvethaica X Li Cond v3.2.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DB Helvethaica X Li Cond v3.2.ttf"; path = "../src/assets/fonts/DB Helvethaica X Li Cond v3.2.ttf"; sourceTree = "<group>"; };
+		AD5413FDEDAB4561A5FFA844 /* NotoSansThai-Bold.ttf */ = {isa = PBXFileReference; name = "NotoSansThai-Bold.ttf"; path = "../src/assets/fonts/NotoSansThai-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		022A729B9C4542009682DAAA /* NotoSansThai-Light.ttf */ = {isa = PBXFileReference; name = "NotoSansThai-Light.ttf"; path = "../src/assets/fonts/NotoSansThai-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DE0433EBE784A4AAF1DB4F8 /* NotoSansThai-Medium.ttf */ = {isa = PBXFileReference; name = "NotoSansThai-Medium.ttf"; path = "../src/assets/fonts/NotoSansThai-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C4AACB699C4473FBF6D9132 /* NotoSansThai-Regular.ttf */ = {isa = PBXFileReference; name = "NotoSansThai-Regular.ttf"; path = "../src/assets/fonts/NotoSansThai-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3C3E965776A47D4A5D960C9 /* NotoSansThai-SemiBold.ttf */ = {isa = PBXFileReference; name = "NotoSansThai-SemiBold.ttf"; path = "../src/assets/fonts/NotoSansThai-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +448,29 @@
 				D65001E5D5554F6BAEF53870 /* DB Helvethaica X UlLi It v3.2.ttf */,
 				2706E6856F8D43358D81AA79 /* DB Helvethaica X UlLi v3.2.ttf */,
 				2FEA0146D1C44D29B7504E0F /* DB Helvethaica X v3.2.ttf */,
+				F9C2A0233B614E89B4B30BED /* Kanit-Black.ttf */,
+				28E5F1E4BF9F4A43A611909E /* Kanit-BlackItalic.ttf */,
+				D05F4D2477F943E6B79A1E2B /* Kanit-Bold.ttf */,
+				4DC7183B49A34DD3A314BD6B /* Kanit-BoldItalic.ttf */,
+				66A57BDA51EF40F3A1CC77A3 /* Kanit-ExtraBold.ttf */,
+				2411E2D6E1F24ED692EE9DF4 /* Kanit-ExtraBoldItalic.ttf */,
+				8CBDA8B5B19D43F99F4E38FD /* Kanit-ExtraLight.ttf */,
+				C1D593ACD0324B63B6C9E420 /* Kanit-ExtraLightItalic.ttf */,
+				0DBDF597F8D6481CB4CEE0CA /* Kanit-Italic.ttf */,
+				86CBEAE622C64EA18B00D68B /* Kanit-Light.ttf */,
+				30C1128F346A4724B0C93189 /* Kanit-LightItalic.ttf */,
+				8910FA5DF9E74527AB78991D /* Kanit-Medium.ttf */,
+				6F06D818B75147B9ABED2120 /* Kanit-MediumItalic.ttf */,
+				A3691F90246C439F94D4437A /* Kanit-Regular.ttf */,
+				0067CB8239AE4CF086AB9EF0 /* Kanit-SemiBold.ttf */,
+				6FA41DDC03F345D783F04A42 /* Kanit-SemiBoldItalic.ttf */,
+				F2A467CE3B6A411C909E0B6B /* Kanit-Thin.ttf */,
+				9E3C4CEB0C3C42B2BD3B998A /* Kanit-ThinItalic.ttf */,
+				AD5413FDEDAB4561A5FFA844 /* NotoSansThai-Bold.ttf */,
+				022A729B9C4542009682DAAA /* NotoSansThai-Light.ttf */,
+				6DE0433EBE784A4AAF1DB4F8 /* NotoSansThai-Medium.ttf */,
+				3C4AACB699C4473FBF6D9132 /* NotoSansThai-Regular.ttf */,
+				A3C3E965776A47D4A5D960C9 /* NotoSansThai-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -616,6 +685,29 @@
 				C8213100464A4FED8F63D36D /* DB Helvethaica X UlLi It v3.2.ttf in Resources */,
 				56874235F7D544FA981D67EB /* DB Helvethaica X UlLi v3.2.ttf in Resources */,
 				EFD45624DADA4C97865FE46E /* DB Helvethaica X v3.2.ttf in Resources */,
+				B7B409FB6D284819A030F1FA /* Kanit-Black.ttf in Resources */,
+				364566D054E9429ABD60A9D6 /* Kanit-BlackItalic.ttf in Resources */,
+				6AF747F1905641738BEEF1A8 /* Kanit-Bold.ttf in Resources */,
+				9887CBD7D12B482181C5DAAC /* Kanit-BoldItalic.ttf in Resources */,
+				30F87985A43B48FBB9E09BAC /* Kanit-ExtraBold.ttf in Resources */,
+				2055505DBB524894AC1333BA /* Kanit-ExtraBoldItalic.ttf in Resources */,
+				B56331A339B64C42ACA6C307 /* Kanit-ExtraLight.ttf in Resources */,
+				768947C5AE6F4E51BF2F845A /* Kanit-ExtraLightItalic.ttf in Resources */,
+				F85D0A66AC8B4EE688D22574 /* Kanit-Italic.ttf in Resources */,
+				DBEB2EA4A9CA4CBE8FF22B90 /* Kanit-Light.ttf in Resources */,
+				AA0CDDA01CA84DDB9926BBFC /* Kanit-LightItalic.ttf in Resources */,
+				D7FCD71BE7BF4F94908FBBCC /* Kanit-Medium.ttf in Resources */,
+				3E50EB8ED86A467192226C2D /* Kanit-MediumItalic.ttf in Resources */,
+				32D4D98E58DE444497AC19F5 /* Kanit-Regular.ttf in Resources */,
+				4A1B14AC901C40CBA335F7CF /* Kanit-SemiBold.ttf in Resources */,
+				78BF742DC5344E3186703E54 /* Kanit-SemiBoldItalic.ttf in Resources */,
+				13BD3DC6512441FCA202303E /* Kanit-Thin.ttf in Resources */,
+				8B9DDDFF881B43B2800E54BE /* Kanit-ThinItalic.ttf in Resources */,
+				1DE1CD20D30F47719CFC78C4 /* NotoSansThai-Bold.ttf in Resources */,
+				0AC566E31BD84470AFCB0E76 /* NotoSansThai-Light.ttf in Resources */,
+				564497E32CF849C7A1525CA7 /* NotoSansThai-Medium.ttf in Resources */,
+				740739987EEF4DFD9F053235 /* NotoSansThai-Regular.ttf in Resources */,
+				0C468762EDC84415A8EEDC32 /* NotoSansThai-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,78 +751,59 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ar_sample/Pods-ar_sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
-				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
-				"${BUILT_PRODUCTS_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework",
 				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
 				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
 				"${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework",
 				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
 				"${BUILT_PRODUCTS_DIR}/RNSensors/RNSensors.framework",
 				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
-				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-DevSupport/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTWebSocket/React.framework",
 				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
 				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
 				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
 				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
 				"${PODS_ROOT}/../../node_modules/react-viro/ios/dist/ViroRenderer/ViroKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 				"${BUILT_PRODUCTS_DIR}/react-native-compass-heading/react_native_compass_heading.framework",
 				"${BUILT_PRODUCTS_DIR}/react-native-geolocation/react_native_geolocation.framework",
-				"${BUILT_PRODUCTS_DIR}/react-native-heading/react_native_heading.framework",
 				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCAsyncStorage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNReanimated.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNSensors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViroKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_compass_heading.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_geolocation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_heading.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

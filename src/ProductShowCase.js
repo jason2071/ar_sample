@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import {StyleSheet} from 'react-native';
 import {
-  ViroScene,
+  ViroARSceneNavigator,
   ViroImage,
   ViroText,
   Viro360Image,
@@ -15,6 +15,10 @@ import {
   ViroAnimations,
   ViroARScene,
 } from 'react-viro';
+
+const initSharedProps = {
+  apiKey: '06232B7B-00EF-49D5-89F2-A254942824C6',
+};
 
 const products = [
   {
@@ -67,6 +71,7 @@ export class ProductShowCase extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      sharedProps: initSharedProps,
       text: 'Initializing AR...',
       hideInfoCards: false,
       runAnimation: false,
@@ -260,7 +265,7 @@ export class ProductShowCase extends Component {
     });
   }
 
-  render() {
+  _arScene = () => {
     const product = products[this.state.productToShow];
 
     return (
@@ -362,6 +367,15 @@ export class ProductShowCase extends Component {
           {this._getNavButtons()}
         </ViroNode>
       </ViroARScene>
+    );
+  };
+
+  render() {
+    return (
+      <ViroARSceneNavigator
+        {...this.state.sharedProps}
+        initialScene={{scene: this._arScene}}
+      />
     );
   }
 }

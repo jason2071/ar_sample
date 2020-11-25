@@ -1,10 +1,13 @@
 import 'react-native-gesture-handler';
 import React, {useEffect, useState} from 'react';
-import {View, Button, Text} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 import CompassHeading from 'react-native-compass-heading';
 import Geolocation from '@react-native-community/geolocation';
 
-const degree_update_rate = 1;
+import DefaultButton from './components/DefaultButton';
+import Spacer from './components/Spacer';
+
+const degree_update_rate = 3;
 let watchID = null;
 
 export default function HomeScreen({navigation}) {
@@ -52,8 +55,14 @@ export default function HomeScreen({navigation}) {
 
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Button
-        title="AR Press"
+      <DefaultButton
+        onPress={() => navigation.navigate('ProductShowCase')}
+        title="ProductShowCase"
+      />
+
+      <Spacer />
+
+      <DefaultButton
         disabled={myLocation.disabled}
         onPress={() => navigation.navigate('ar', {degree, myLocation})}
       />

@@ -101,16 +101,8 @@ export default class ARScreen extends Component {
           transformBehaviors={'billboard'}>
           <ViroFlexView style={styles.rowContainer}>
             <ViroText
-              text={'憂郁 中文 ようこそ 어서 오십시오'}
-              textAlign="left"
-              textAlignVertical="top"
-              textLineBreakMode="justify"
-              textClipMode="clipToBounds"
-              style={{
-                fontFamily: 'monospace',
-                fontSize: 20,
-                color: 'white',
-              }}
+              text={'สวัสดีครับ Welcome'}
+              style={styles.prodTitleText}
             />
           </ViroFlexView>
 
@@ -177,17 +169,18 @@ const styles = StyleSheet.create({
   prodTitleText: {
     fontSize: 30,
     color: 'white',
-    textAlignVertical: 'center',
+    textAlignVertical: 'top',
     textAlign: 'left',
     flex: 1,
+    fontFamily: 'sans-serif-light',
   },
   prodDescriptionText: {
     fontSize: 30,
     color: 'white',
-    textAlignVertical: 'center',
+    textAlignVertical: 'top',
     textAlign: 'left',
     flex: 1,
-    fontFamily: 'Roboto',
+    fontFamily: 'sans-serif-light',
   },
   divider: {
     width: 3.5,
